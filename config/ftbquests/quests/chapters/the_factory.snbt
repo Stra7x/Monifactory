@@ -169,7 +169,7 @@
 			y: 1.25d
 		}
 		{
-			dependencies: ["2D31856F6EF1ED69"]
+			dependencies: ["5A94534682807314"]
 			description: [
 				"A &6Programmed Circuit&r is an item used to configure machines. In essence, they tell a machine what to make if there's multiple things it could make from a certain input."
 				""
@@ -1238,7 +1238,7 @@
 			description: [
 				"The main purpose for this device is to turn &6Certus Quartz&r into &6Charged Certus Quartz&r."
 				""
-				"This device can be powered with RF via energy cards or AE energy from a network via cables."
+				"This device can be powered with EU via a GregTech cable or AE energy from a network via cables."
 				""
 				"It accepts power from &9five&r sides. Which &9five&r sides? It's pretty easy to guess."
 				""
@@ -1717,7 +1717,7 @@
 			y: 11.75d
 		}
 		{
-			dependencies: ["2D31856F6EF1ED69"]
+			dependencies: ["5A94534682807314"]
 			description: [
 				"&9GregTech Power&r can be tricky to handle. Luckily, there are several tools you can use to tackle some of the problems."
 				""
@@ -2049,9 +2049,9 @@
 		{
 			dependencies: ["1229234A71CE0A99"]
 			description: [
-				"The &bPhytogenic Insolator&r is a way to &9passively produce wood in the earlygame&r. While somewhat slow, it only requires &a10 rf/t&r to operate, meaning you can just set it down and not have to worry about it, and then come back to wood when you need some for crafting or steel production."
+				"The &bPhytogenic Insolator&r is a way to &9passively produce wood in the earlygame&r. While somewhat slow, it only requires &a3 EU/t&r to operate, meaning you can just set it down and not have to worry about it, and then come back to wood when you need some for crafting or steel production."
 				""
-				"Using &bHardened Integral Components&r in it will cause it to work 1.5x faster, while only requiring an extra &a5 rf/t&r to operate, and using &6Bonemeal&r or otherwise will boost how much wood you get per cycle."
+				"Using &bHardened Integral Components&r in it will cause it to work 1.5x faster, while only requiring an extra &a2 EU/t&r to operate, and using &6Bonemeal&r or otherwise will boost how much wood you get per cycle."
 				""
 				"By the way, &bThermal&r Machines are capable of Automatic I/O, try placing a 2x2 drawer beside your &bPhytogenic Insolator&r and configuring it to both push to and pull from the side with the drawer."
 			]

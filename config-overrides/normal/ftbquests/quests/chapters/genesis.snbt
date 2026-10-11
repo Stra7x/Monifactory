@@ -13,35 +13,35 @@
 			linked_quest: "1A30472430354F1E"
 			shape: "gear"
 			size: 1.5d
-			x: 1.5d
+			x: 0.0d
 			y: 12.5d
 		}
 		{
 			id: "6DC914192E886D47"
 			linked_quest: "77670BF761084AA2"
 			shape: "hexagon"
-			x: 1.5d
+			x: 0.0d
 			y: 11.0d
 		}
 		{
 			id: "070539F2FEF35EF9"
 			linked_quest: "712023557B5B1812"
 			shape: "hexagon"
-			x: -4.5d
-			y: 15.5d
+			x: -3.0d
+			y: 14.5d
 		}
 		{
 			id: "564D04B3CA37A1FF"
 			linked_quest: "2280472741683581"
 			shape: "hexagon"
 			x: 4.5d
-			y: 14.25d
+			y: 14.5d
 		}
 		{
 			id: "05A4BB02743F83AD"
 			linked_quest: "34876F54406B6A04"
-			x: 0.75d
-			y: 15.5d
+			x: 0.0d
+			y: 14.5d
 		}
 		{
 			id: "4373D49C9462A56A"
@@ -1307,7 +1307,7 @@
 				""
 				"More advanced types of cables will require an &3Assembler&f and liquid &9Rubber&f, but you can do it the simple way for now."
 				""
-				"&2GT cables support RF conversion natively! &eYou can plug an &9RF&e machine into an &9EU&e cable directly and it will convert the energy.&r You cannot, however, plug an &9RF&r power source directly into an &9EU&r cable."
+				"&2GT cables support RF conversion natively! &eYou can plug an &9RF&e machine into an &9EU&e cable directly and it will convert the energy.&r"
 				"{@pagebreak}"
 				"All cables have 3 main properties:"
 				"- &aMax Voltage&r: The maximum tier of voltage that can pass through the cable safely. Voltage tiers below the maximum can also be conducted!"
@@ -1350,72 +1350,15 @@
 			tasks: [{
 				count: 6L
 				id: "39A6A20C833ABC94"
-				item: "pipez:energy_pipe"
+				item: "pipez:item_pipe"
 				type: "item"
 			}]
 			title: "&9Pipez"
-			x: 0.0d
-			y: 12.5d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
-				"1A30472430354F1E"
-				"08948A23B3A17923"
-			]
-			description: [
-				"&rThe &3Steam Dynamos&r&r&r you have made are generating &aRF power&r, but &bGregTech&r machines require &aEU power&r. With your first &6circuit&r in hand, you are ready to build a &eLow Voltage (LV) &3&2Energy Converter&r."
-				""
-				"The &2Energy Converter&r is a special device that &econverts &2between &aRF power&r and &aEU power&r. They come in &2four sizes: 1A, 4A, 8A, and 16A."
-				""
-				"&aRF&r converts into &aEU&r at a &e4 to 1 ratio&r. &a100 RF&r becomes &a25 EU&r, and vice-versa. &2Use a &6Soft Mallet&2 to change the conversion direction."
-				""
-				"&eNote that you need an RF buffer to output into when you convert EU->RF!&r"
-			]
-			icon: "gtceu:lv_4a_energy_converter"
-			id: "297B523B6C503957"
-			rewards: [{
-				id: "6F305739BEEDF49B"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Green = Input, Red = Output"
-			tasks: [{
-				id: "3217FC6AD2AFA67A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_1a_energy_converter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_4a_energy_converter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_8a_energy_converter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_16a_energy_converter"
-							}
-						]
-					}
-				}
-				title: "Any LV Converter"
-				type: "item"
-			}]
-			title: "Energy Converters"
-			x: -0.75d
-			y: 15.5d
-		}
-		{
-			dependencies: [
-				"297B523B6C503957"
 				"34876F54406B6A04"
 				"077AA27F26B7831F"
 			]
@@ -1456,8 +1399,8 @@
 				type: "item"
 			}]
 			title: "Battery Buffers"
-			x: 2.0d
-			y: 15.5d
+			x: 1.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["12B95158E4C792DB"]
@@ -1503,13 +1446,10 @@
 			}]
 			title: "LV Power Storage"
 			x: 3.0d
-			y: 14.25d
+			y: 14.5d
 		}
 		{
-			dependencies: [
-				"297B523B6C503957"
-				"34876F54406B6A04"
-			]
+			dependencies: ["34876F54406B6A04"]
 			dependency_requirement: "one_completed"
 			description: [
 				"The &9Tinker's Workstation&r is able to charge items at a modest rate, but can only charge items that use &aRF&r. &9This is also used for upgrading &bThermal&9 items&r."
@@ -1561,17 +1501,14 @@
 				type: "item"
 			}]
 			title: "&9Charging Items"
-			x: -2.0d
-			y: 15.5d
+			x: -1.5d
+			y: 14.5d
 		}
 		{
-			dependencies: [
-				"297B523B6C503957"
-				"34876F54406B6A04"
-			]
+			dependencies: ["34876F54406B6A04"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Unlike &aRF power&r, which is safe to transport with &bPipez&r, &aEU power &erequires caution&r. Without proper attention, it is possible that your expensive wires, cables, or machines could be destroyed."
+				"Unlike the &aRF power&r you may be familiar with, &aEU power &erequires caution&r. Without proper attention, it is possible that your expensive wires, cables, or machines could be destroyed."
 				""
 				"EU is transported in &aamperes&r (&aamps&r), which can be thought of as packets of energy. The amount of energy stored in the packet is the &avoltage tier&r."
 				""
@@ -1587,12 +1524,12 @@
 			}]
 			title: "A Primer on Power"
 			x: 0.0d
-			y: 17.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["5A94534682807314"]
 			description: [
-				"Unlike &aRF power&r, which is safe to transport with &bPipez&r, &aEU power &erequires caution&r. Without proper attention, it is possible that your expensive wires, cables, or machines could be destroyed."
+				"Unlike the &aRF power&r you may be familiar with, &aEU power &erequires caution&r. Without proper attention, it is possible that your expensive wires, cables, or machines could be destroyed."
 				""
 				"EU is transported in &aamperes&r (&aamps&r), which can be thought of as packets of energy. The amount of energy stored in the packet is the &avoltage tier&r."
 				"{@pagebreak}"
@@ -1615,7 +1552,7 @@
 			}]
 			title: "Putting it all Together"
 			x: 0.0d
-			y: 18.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["66FCC26399376B55"]
@@ -1941,7 +1878,7 @@
 			]
 			title: "Snad"
 			x: -1.5d
-			y: 9.5d
+			y: 8.75d
 		}
 		{
 			can_repeat: false

@@ -1201,7 +1201,7 @@
 				""
 				"Saved recipes must then be selected with a &8Left-Click&r to indicate that that recipe should be crafted. Only one recipe can be selected at a time."
 				"{@pagebreak}"
-				"Lastly, place an inventory atop the table - The &3Auto Crafting Table&r cannot be inserted to, and &ecan only pull items from that inventory&r. At this point you can put ingredients in the inventory and &aRF&r power in the table to begin automated crafting."
+				"Lastly, place an inventory atop the table - The &3Auto Crafting Table&r cannot be inserted to, and &ecan only pull items from that inventory&r. At this point you can put ingredients in the inventory and power the table to begin automated crafting."
 				""
 				"In compensation for the cost of confusing logistics, these tables have throughput capabilities comparable to fully-accelerated &3Molecular Assemblers&r."
 			]
@@ -1247,7 +1247,7 @@
 		{
 			dependencies: ["193B7038EAB6EFA3"]
 			description: [
-				"The &3Oxygen Loader&r is used to load &9Oxygen&r into your Space Suit, making it usable for exploring the great beyond. It will need &aRedstone Flux (RF)&r to do so. You may alternatively use a &3Canner&r."
+				"The &3Oxygen Loader&r is used to load &9Oxygen&r into your Space Suit, making it usable for exploring the great beyond. It will need power to do so. You may alternatively use a &3Canner&r."
 				""
 				"If you run out of Oxygen, then you will &cSuffocate&r. If you plan to spend several hours on &bThe Moon&r, consider bringing an additional &6Gas Tank&r filled with &9Oxygen&r."
 			]
@@ -1386,11 +1386,11 @@
 			description: [
 				"If you wish to create an off-Earth base or otherwise conduct operations longer than a mining trip, &3Ad Astra&r offers a few machines that will be helpful or even necessary to your objective."
 				""
-				"1. The &3Oxygen Distributor&r. When supplied with &aRedstone Flux (RF)&r and &9Oxygen&r, this machine creates a breathable volume of air around it which expands to fit the environment it's contained in up to six thousand (6000) blocks in volume. It also prevents &9Water&r in this area from freezing, and is therefore necessary for the operation of a &3Rock Crusher&r."
+				"1. The &3Oxygen Distributor&r. When supplied with power and &9Oxygen&r, this machine creates a breathable volume of air around it which expands to fit the environment it's contained in up to six thousand (6000) blocks in volume. It also prevents &9Water&r in this area from freezing, and is therefore necessary for the operation of a &3Rock Crusher&r."
 				""
 				"2. The &3Oxygen Sensor&r. This block emits a redstone signal and displays a green light when it's in an oxygenated environment. Check one before you take your helmet off to ensure you don't suffocate!"
 				""
-				"3. The &3Gravity Normalizer&r. This machine unlocks in &5EV&r, and when supplied with &aRF&r it allows you to control gravity nearby similar to the Oxygen Distributor. If the low gravity on &bThe Moon&r or in &bOrbit&r bothers you, then give it a whirl!"
+				"3. The &3Gravity Normalizer&r. This machine unlocks in &5EV&r, and when supplied with power it allows you to control gravity nearby similar to the Oxygen Distributor. If the low gravity on &bThe Moon&r or in &bOrbit&r bothers you, then give it a whirl!"
 			]
 			icon: "ad_astra:space_painting"
 			id: "4288A253129B1E75"

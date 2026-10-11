@@ -280,7 +280,7 @@
 				"7E59E0E33962D787"
 			]
 			description: [
-				"A &6P2P Tunnel&r (&aPoint-to-Point Tunnel&r) is a powerful tool from &bApplied Energistics 2&r that can be used to send items, redstone, RF/EU or fluids from one location to another using your ME system, without the need to use any cell storage space. &cTransporting EU has a tax on the input energy based on the size and number of amps transported.&r"
+				"A &6P2P Tunnel&r (&aPoint-to-Point Tunnel&r) is a powerful tool from &bApplied Energistics 2&r that can be used to send items, redstone, or fluids from one location to another using your ME system, without the need to use any cell storage space. &cTransporting EU has a tax on the input energy based on the size and number of amps transported.&r"
 				""
 				"Each P2P tunnel system may have only &cone input&r but &eany number of outputs&r. There is no limit on how many P2P tunnels, or P2P tunnel systems, you can have on one network."
 				""
@@ -1729,7 +1729,7 @@
 			description: [
 				"Fluix is initially made via in-world crafting, by dropping &6Redstone&r, &6Nether Quartz&r, and a &6Charged Certus Quartz Crystal&r in the same block of &9Water&r. You'll see some sparks then the items will merge into a &6Fluix Crystal&r. Be sure to turn off any nearby item magnets/collectors or they might interrupt this crafting process."
 				""
-				"The &3Energy Acceptor&r converts RF power into AE power that Applied Energistics uses, in a 2 RF to 1 AE ratio. This power will be transmitted through adjacent full-block ME Network devices, as well as along all connected &6ME Cables&r and &6Quartz Fibers&r."
+				"The &3Energy Acceptor&r converts GT power into AE power that Applied Energistics uses, in a 1 EU to 2 AE ratio. This power will be transmitted through adjacent full-block ME Network devices, as well as along all connected &6ME Cables&r and &6Quartz Fibers&r."
 				""
 				"Quartz Fibers are &emicroparts&r you can put between an ME Cable and any ME Network block or another ME Cable. This will allow transmission of AE power but not data, which is useful for having data-isolated ME Networks all sharing the same power source."
 				"{@pagebreak}"
