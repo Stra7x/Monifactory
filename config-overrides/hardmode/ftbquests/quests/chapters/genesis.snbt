@@ -14,14 +14,14 @@
 			shape: "gear"
 			size: 1.5d
 			x: 0.0d
-			y: 15.375d
+			y: 15.0d
 		}
 		{
 			id: "6DC914192E886D47"
 			linked_quest: "77670BF761084AA2"
 			shape: "hexagon"
-			x: 0.0d
-			y: 13.75d
+			x: -2.0d
+			y: 15.0d
 		}
 		{
 			id: "070539F2FEF35EF9"
@@ -1304,7 +1304,7 @@
 			}]
 			title: "Rubber Sheets"
 			x: 4.0d
-			y: 12.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4B338515E84FC51A"]
@@ -1364,7 +1364,7 @@
 				}
 			]
 			title: "From Ingots to Wires"
-			x: 0.0d
+			x: -2.0d
 			y: 12.0d
 		}
 		{
@@ -1400,8 +1400,8 @@
 				type: "item"
 			}]
 			title: "&2Cables"
-			x: 2.0d
-			y: 13.75d
+			x: 0.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["1229234A71CE0A99"]
@@ -1552,8 +1552,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.75d
+			x: 0.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["34CA940B412284F2"]
@@ -1621,12 +1621,12 @@
 			tasks: [{
 				count: 6L
 				id: "39A6A20C833ABC94"
-				item: "pipez:energy_pipe"
+				item: "pipez:item_pipe"
 				type: "item"
 			}]
 			title: "&9Pipez"
-			x: -2.0d
-			y: 13.75d
+			x: -4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
