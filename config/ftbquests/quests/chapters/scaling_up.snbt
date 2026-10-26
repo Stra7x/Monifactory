@@ -2499,7 +2499,6 @@
 			y: -0.25d
 		}
 		{
-			dependencies: ["6FB3E3D9CA0F4B30"]
 			description: [
 				"&9Rubber&r has been sufficient for making cables so far, but you will soon discover that this basic type of rubber won't withstand more than &2Extreme Voltage&r. Higher quality rubber is necessary to properly insulate your wires."
 				""

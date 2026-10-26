@@ -5,7 +5,7 @@
 	group: "18F0ED1F9A002C08"
 	icon: "kubejs:microminer_t1"
 	id: "68F29871402A6B1B"
-	order_index: 5
+	order_index: 6
 	quest_links: [
 		{
 			id: "6BC0B624457AB137"
@@ -59,7 +59,7 @@
 		{
 			dependencies: ["5F688F22A3DB2ADD"]
 			description: ["{moni.quest.74FEF82CA2FB3D02.description1}"]
-			id: "74FEF82CA2FB3D02"
+			id: "791A3E430807334B"
 			rewards: [{
 				id: "181CA17C25013620"
 				item: "kubejs:moni_nickel"
@@ -104,7 +104,7 @@
 		{
 			dependencies: ["74FEF82CA2FB3D02"]
 			description: ["{moni.quest.718AF2C9476BE1F4.description1}"]
-			id: "718AF2C9476BE1F4"
+			id: "17558212F50205EC"
 			rewards: [{
 				id: "0162618662B31232"
 				item: "kubejs:moni_nickel"
@@ -122,7 +122,7 @@
 		{
 			dependencies: ["01F946C4A4BF4FFE"]
 			description: ["{moni.quest.52B20235882063BF.description1}"]
-			id: "52B20235882063BF"
+			id: "12E659E81CA26FD4"
 			rewards: [{
 				id: "054EEB2BC8D8E4B1"
 				item: "kubejs:moni_nickel"
@@ -245,7 +245,7 @@
 		{
 			dependencies: ["3BB7400C8BB392D9"]
 			description: ["{moni.quest.004344AC70AE88F1.description1}"]
-			id: "004344AC70AE88F1"
+			id: "0B5E69CCEE5EEF5F"
 			rewards: [{
 				id: "736F1A6A51C728B9"
 				item: "kubejs:moni_nickel"
@@ -267,7 +267,7 @@
 				"004344AC70AE88F1"
 			]
 			description: ["{moni.quest.56BAC68878E11DF4.description1}"]
-			id: "56BAC68878E11DF4"
+			id: "19BA29485FD6DE94"
 			rewards: [{
 				id: "43E03E40DC856904"
 				item: "kubejs:moni_nickel"
@@ -288,7 +288,7 @@
 				"52B20235882063BF"
 			]
 			description: ["{moni.quest.04475771966A92C3.description1}"]
-			id: "04475771966A92C3"
+			id: "0C65C605A3E4BFBB"
 			rewards: [{
 				id: "57C733695C4A4BF8"
 				item: "kubejs:moni_quarter"
@@ -309,7 +309,7 @@
 				"77582C534A994D7C"
 			]
 			description: ["{moni.quest.555BEBF7FD6012B7.description1}"]
-			id: "555BEBF7FD6012B7"
+			id: "6ABEDE03701B8539"
 			rewards: [{
 				id: "1D9B626A9FE51F59"
 				item: "kubejs:moni_dollar"
@@ -380,7 +380,7 @@
 		{
 			dependencies: ["718AF2C9476BE1F4"]
 			description: ["{moni.quest.27692C4A58F1A183.description1}"]
-			id: "27692C4A58F1A183"
+			id: "581554D9CDD69329"
 			rewards: [{
 				id: "0AC07F27C4932179"
 				item: "kubejs:moni_nickel"
@@ -488,7 +488,7 @@
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
-				id: "3458BC33000F9D0A"
+				id: "439EB619AE76619F"
 				title: "{moni.task.3458BC33000F9D0A}"
 				type: "dimension"
 			}]
@@ -713,7 +713,7 @@
 				"01CC71429CFCAE0B"
 			]
 			description: ["{moni.quest.193B7038EAB6EFA3.description1}"]
-			id: "193B7038EAB6EFA3"
+			id: "21C2026D6584B9B4"
 			rewards: [{
 				id: "3D22138C90885458"
 				item: "kubejs:moni_nickel"
@@ -731,9 +731,8 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["17312BF0197B87A8"]
 			description: ["{moni.quest.247F4985B9ACE568.description1}"]
-			id: "247F4985B9ACE568"
+			id: "2EE1811691A62B3B"
 			rewards: [{
 				id: "3E3820290231C63E"
 				item: "kubejs:moni_nickel"
@@ -1177,7 +1176,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: ["Waystones also &anaturally generate&r across the world, so nothing is stopping you from simply roaming around and stealing Waystones for your own needs."]
 			icon: "minecraft:ender_eye"
 			id: "728F90FFFB73BA5C"
@@ -1343,7 +1341,7 @@
 		{
 			dependencies: ["6169C04DF463502F"]
 			description: ["{moni.quest.2D0DF78F71760F00.description1}"]
-			id: "2D0DF78F71760F00"
+			id: "0C0136FC89884CC9"
 			rewards: [{
 				id: "4EBCBD26CFB43E2E"
 				item: "kubejs:moni_nickel"

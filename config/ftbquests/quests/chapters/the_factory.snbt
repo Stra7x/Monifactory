@@ -7,7 +7,7 @@
 	group: "18F0ED1F9A002C08"
 	icon: "gtceu:electric_blast_furnace"
 	id: "2763DAD954E0EED8"
-	order_index: 2
+	order_index: 4
 	quest_links: [
 		{
 			id: "5B0F1DA574E0A141"
@@ -82,10 +82,10 @@
 				"&2If the machine sounds start to get on your nerves, you can mute GT machines with a GT Hammer, &9or mute the sound entirely in the ESM menu, accessible from your inventory."
 			]
 			icon: "gtceu:lv_wiremill"
-			id: "62BBD1F6767A4D90"
+			id: "6621F1553550116E"
 			rewards: [{
 				count: 2
-				id: "33683A0D0F389BD0"
+				id: "461CD0EF68C1A7C3"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
@@ -94,7 +94,7 @@
 			subtitle: "The factory begins"
 			tasks: [
 				{
-					id: "298288137C88DDFF"
+					id: "5CAF603509BF776C"
 					item: {
 						Count: 1
 						id: "itemfilters:or"
@@ -120,7 +120,7 @@
 				}
 				{
 					count: 4L
-					id: "7B350C87343A8A00"
+					id: "5E2E595AA0DF7544"
 					item: "gtceu:lv_electric_motor"
 					type: "item"
 				}
@@ -137,9 +137,9 @@
 				"&2Polarizer recipes in Moni go up to ZPM."
 			]
 			icon: "gtceu:lv_polarizer"
-			id: "19233A97579E0BDD"
+			id: "59219F5AD3707427"
 			rewards: [{
-				id: "12A2FD239F76B646"
+				id: "67D23A4D7DF77872"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
@@ -147,7 +147,7 @@
 			size: 1.5d
 			subtitle: "Automatic magnetizers"
 			tasks: [{
-				id: "2AAE22F760F73AD8"
+				id: "283BBEAABCDF6783"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -176,7 +176,6 @@
 			y: 1.25d
 		}
 		{
-			dependencies: ["5A94534682807314"]
 			description: [
 				"A &6Programmed Circuit&r is an item used to configure machines. In essence, they tell a machine what to make if there's multiple things it could make from a certain input."
 				""
@@ -197,9 +196,9 @@
 					Configuration: 0
 				}
 			}
-			id: "0381DCD3FD3C9ED2"
+			id: "6A8D82F06749E363"
 			rewards: [{
-				id: "3B97398BAE233115"
+				id: "409F2F7A4370EDAF"
 				item: {
 					Count: 1
 					id: "gtceu:programmed_circuit"
@@ -211,7 +210,7 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				id: "381F87172DB87754"
+				id: "18A4D892D49653E0"
 				type: "checkmark"
 			}]
 			title: "&9Programmed Circuits"
@@ -278,16 +277,16 @@
 				"You will need it later on to craft &6Lenses&r."
 			]
 			icon: "gtceu:lv_lathe"
-			id: "2A84013C14085C7B"
+			id: "0C3A2D09674F6327"
 			rewards: [{
-				id: "1344CFC701E35C5F"
+				id: "0C0AAC99500AEB81"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "5D06DCFA7A00AE81"
+				id: "3CD4F8C6B5356908"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -331,16 +330,16 @@
 				"&r"
 			]
 			icon: "gtceu:lv_bender"
-			id: "3EDD0A986384F2A7"
+			id: "614B08727DB61773"
 			rewards: [{
-				id: "0AE3BBBCE40C2F66"
+				id: "117246B8CAC364DA"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "5D9E01E9FFB9F05B"
+				id: "5AC5AB6EC6EBE177"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -401,10 +400,10 @@
 				"However, this machine will still see use for compressing &eNuggets&r into&e Ingots&r, &eIngots&r into &eBlocks&r, &eGem Dusts&r into &ePlates&r (such as &6Certus Quartz&r), as well as various other useful recipes."
 			]
 			icon: "gtceu:lv_compressor"
-			id: "5795EE147D4879B7"
+			id: "6C271679D34A2B77"
 			shape: "hexagon"
 			tasks: [{
-				id: "2B92B2273B4DBA4E"
+				id: "65721F34D79F36BB"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -440,11 +439,11 @@
 				"You can make molds from &6Steel&r and use &3Fluid Solidifiers&r to form various components more efficiently from fluids, like &6Gears&r."
 			]
 			icon: "gtceu:lv_extractor"
-			id: "038D06BCA022C1BF"
+			id: "0613E3C792486394"
 			shape: "hexagon"
 			subtitle: "&2Your machine of choice for liquefying metals!"
 			tasks: [{
-				id: "302CBE00E5451E5E"
+				id: "09A6AEBE1BA0484F"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -490,15 +489,15 @@
 				"Finally, a Macerator will only start processing if there is room for all possible outputs. Make sure you empty them so they can keep working."
 			]
 			icon: "gtceu:lv_macerator"
-			id: "4685AC9E6CD87B77"
+			id: "0E1C3BD24DBEBAB7"
 			rewards: [{
-				id: "06A7DC04EEC732E1"
+				id: "0B03486EA64BA3BA"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "29E5699EC44EAFB5"
+				id: "75551146EBC19189"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -534,16 +533,16 @@
 				"&3Fluid Solidifiers&r are useful for lots of other things too, of course. Look through the various molds to see what you can make with one."
 			]
 			icon: "gtceu:lv_fluid_solidifier"
-			id: "4EAD8756BAAC6B2E"
+			id: "67361ABDAF7EA112"
 			rewards: [{
-				id: "068F5B92B80B6864"
+				id: "48EA2370818DAF8C"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "421570E2D8BAB4DE"
+				id: "0A03D61FE1279AFE"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -576,15 +575,15 @@
 			description: ["&3Pumps&r are useful for gathering &6Oil&r or perhaps &6Lava&r from the Nether. Supply one with power, and it will slowly deploy a pipe under itself, pumping fluid when it encounters it."]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_pump"
-			id: "09C0CDC1DFA7842D"
+			id: "3DE80EAC29EFB211"
 			rewards: [{
-				id: "1A7962BB3B58AA55"
+				id: "4AC3C8A8C3A477B0"
 				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
-				id: "03C18BA6D84BA956"
+				id: "53C822E1215168AC"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -620,10 +619,10 @@
 				"You'll need an Autoclave for many recipes, but most presently you will need it to make &6Pulsating Crystals&r and &6Vibrant Crystals&r from &bEnderIO&r."
 			]
 			icon: "gtceu:lv_autoclave"
-			id: "47094A5717952699"
+			id: "103607D98EE0BD24"
 			shape: "hexagon"
 			tasks: [{
-				id: "11FEC1EF6257937D"
+				id: "28F54E189FFA61BC"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -711,26 +710,26 @@
 				"Be careful not to accidentally make &aExtruder Shapes&r. Those are for a machine you will get access to later. The three molds in this quest are ones you will find useful right away."
 			]
 			icon: "gtceu:gear_casting_mold"
-			id: "404C9497C46E7608"
+			id: "0085C9C2A7294824"
 			rewards: [{
-				id: "2CB59A2F31238EFF"
+				id: "64AB523DA5F35CD5"
 				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "500A01A974ACFC7D"
+					id: "30DCC9A287131200"
 					item: "gtceu:block_casting_mold"
 					type: "item"
 				}
 				{
-					id: "427921CAA3277199"
+					id: "337EA4A79F362F29"
 					item: "gtceu:gear_casting_mold"
 					type: "item"
 				}
 				{
-					id: "17037C04324A5D7A"
+					id: "34A1D0E2C197F526"
 					item: "gtceu:rotor_casting_mold"
 					type: "item"
 				}
@@ -740,7 +739,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
 			description: [
 				"&6Pulsating Dust&r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange (and potentially dangerous) applications, including the ability to make &6Pulsating Iron&r and &6Ender Pearls&r."
 				""
@@ -766,10 +764,7 @@
 			y: 0.75d
 		}
 		{
-			dependencies: [
-				"30EBD4E7BBFFEF2C"
-				"29A487F0BC43AAF9"
-			]
+			dependencies: ["30EBD4E7BBFFEF2C"]
 			description: ["If you can't find one otherwise, &6Ender Pearls&r can be crafted using Pulsating Dust and a &6Diamond&r in an &3Alloy Smelter&r."]
 			icon: "gtceu:pulsating_alloy_ingot"
 			id: "64A63953631D1EC0"
@@ -792,10 +787,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"29A487F0BC43AAF9"
-				"64ABEB1EF9F81EA4"
-			]
+			dependencies: ["64ABEB1EF9F81EA4"]
 			description: ["You might want to save your &6Coal Dust&r for circuits and use &6Charcoal Dust&r instead. Later, you can also process either &6Coal Coke Dust&r or &2Diamond Dust&r into &6Carbon Dust&r, which can be used for other alloys."]
 			hide_until_deps_visible: true
 			id: "6FF1AFDB75862CC2"
@@ -812,7 +804,6 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["29A487F0BC43AAF9"]
 			description: [
 				"&6Nickel&r comes from several different ores, including &6Pentlandite&r and &6Garnierite&r, but they're all found in the same vein."
 				""
@@ -930,15 +921,15 @@
 				"Most Arc Furnace recipes use exactly 30 EU/t, so you can get a lot of mileage out of an LV one. However, many recipes take long enough that you may want to upgrade at some point."
 			]
 			icon: "gtceu:lv_arc_furnace"
-			id: "500E619D568C07C2"
+			id: "5E441C72D8574261"
 			rewards: [{
-				id: "028645C412CA6B28"
+				id: "60CBF9D15C0CA88E"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4425D77A0E138B1B"
+				id: "1567291D5A9F12DF"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -967,7 +958,6 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["0EDFB0C24B9129AB"]
 			description: [
 				"&oThis is part of a Processing Line. Visit the Renewable Production tab to have more info, useful tips and a visual representation.&r"
 				""
@@ -975,14 +965,14 @@
 				""
 				"Later on, you could look into the &6Rock Crusher&r, which can do it faster at the cost of requiring power."
 			]
-			id: "4624889F738AB21B"
+			id: "41281E3722CA63CC"
 			rewards: [{
-				id: "2AFEC339114B90DE"
+				id: "3CFBDA5E8AC538DE"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
-				id: "20C8F57CE9379A41"
+				id: "3C1EB9C69C7E68C8"
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
@@ -994,15 +984,15 @@
 			dependencies: ["604CCBE824D03A74"]
 			description: ["The &6Forge Hammer&r, despite being inefficient at making plates, can be used to break Cobblestone into Gravel and Gravel into Sand. It's also used to combine 2 Rods into 1 Long Rod."]
 			icon: "gtceu:lv_forge_hammer"
-			id: "0EDFB0C24B9129AB"
+			id: "7DB2C8863BBC48CD"
 			rewards: [{
-				id: "6BE647D018E97BB3"
+				id: "747B4CACA903863E"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "29F11B4491A6064D"
+				id: "4B71883C1B783EDF"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -1067,12 +1057,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"74B5CA5A48CE7B39"
-				"29A487F0BC43AAF9"
-			]
+			dependencies: ["74B5CA5A48CE7B39"]
 			description: ["&6Dark Steel&r is made by alloying &6Obsidian&r and &6Steel&r together in an &3Alloy Smelter&r. Later, in &bMV&r, you can use &6Void Crystal&r instead of Obsidian."]
-			id: "3BD20358F137E7C6"
+			id: "365ED040C37B6C99"
 			shape: "hexagon"
 			tasks: [{
 				id: "0E04F46D74FB9B83"
@@ -1084,10 +1071,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"64ABEB1EF9F81EA4"
-				"29A487F0BC43AAF9"
-			]
+			dependencies: ["64ABEB1EF9F81EA4"]
 			description: [
 				"The &6Steam Grinder&r functions as 5.3 &7LV &3Macerators&r in parallel! It requires an input of &9Steam&r through a &eSteam Hatch&r."
 				""
@@ -1154,10 +1138,7 @@
 			y: 3.25d
 		}
 		{
-			dependencies: [
-				"5B0200011DF8E1B6"
-				"29A487F0BC43AAF9"
-			]
+			dependencies: ["5B0200011DF8E1B6"]
 			description: [
 				"A refined type of steel, made from &6Silicon Dust&r and &6Steel&r."
 				""
@@ -1178,7 +1159,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
 			description: [
 				"You'll need &6Obsidian&r to make &6Dark Steel&r. Most of the tools you can make cannot mine Obsidian, but you do have a few potential options for ones that will work. The options you're most likely to have access to at this point are:"
 				""
@@ -1442,10 +1422,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"4CD6C60CBEFFA317"
-				"0523F4AB9A794390"
-			]
+			dependencies: ["4CD6C60CBEFFA317"]
 			description: [
 				"The &3Electric Blast Furnace&r is a major, major milestone in your &bGregTech&r career. It has the power to smelt more advanced materials. The first of these, &6Aluminium&r, is going to be important in the immediate future."
 				""
@@ -1723,7 +1700,6 @@
 			y: 11.75d
 		}
 		{
-			dependencies: ["5A94534682807314"]
 			description: [
 				"&9GregTech Power&r can be tricky to handle. Luckily, there are several tools you can use to tackle some of the problems."
 				""
@@ -1773,13 +1749,13 @@
 				"Covers that move items or fluids can have a &aFilter&r placed inside them. These modify the functionality of covers in ways explained in their own quests."
 			]
 			icon: "gtceu:shutter_module_cover"
-			id: "1A427A8CB43C8B59"
+			id: "483D8EB992353FC5"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
 					icon: "gtceu:lv_conveyor_module"
-					id: "306DF07EDDE30066"
+					id: "0420956B11182A36"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -1792,7 +1768,7 @@
 				}
 				{
 					icon: "gtceu:lv_electric_pump"
-					id: "337A5CD72A73F754"
+					id: "089E494A5EAA07A0"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -1805,7 +1781,7 @@
 				}
 				{
 					icon: "gtceu:lv_robot_arm"
-					id: "69CC33E331C7D414"
+					id: "65679443B69F742F"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -1818,7 +1794,7 @@
 				}
 				{
 					icon: "gtceu:lv_fluid_regulator"
-					id: "6FE5FEAC1B1A212A"
+					id: "2AC6D61E5AF8992E"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -1838,10 +1814,10 @@
 			dependencies: ["604CCBE824D03A74"]
 			description: ["&9Pressing the second tab in any given machine's GUI will open up a view showing the machine and any blocks it is touching.&r From there, you can click on a side of the machine and easily add, edit and remove &acovers&r, and configure if the machine should &3automatically output&r and which side it should output to. "]
 			icon: "minecraft:hopper"
-			id: "431BB650AC492C84"
+			id: "2D01C3779CE080BE"
 			size: 1.5d
 			tasks: [{
-				id: "65EF130C1913A8AD"
+				id: "55D89DCFD7D7F07E"
 				title: "Screwdrive Output Sides!"
 				type: "checkmark"
 			}]
@@ -1850,10 +1826,6 @@
 			y: 5.75d
 		}
 		{
-			dependencies: [
-				"57D1B1D74391A05F"
-				"64AAF0CD958D836A"
-			]
 			description: [
 				"&aFilters&r are a type of machine cover that controls what items or fluids are allowed to pass through it. They can be used directly on the side of a machine to affect external automation or the machine's &aauto-output functionality&r."
 				""
@@ -1968,10 +1940,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4CD6C60CBEFFA317"
-				"0523F4AB9A794390"
-			]
+			dependencies: ["4CD6C60CBEFFA317"]
 			description: [
 				"The main function of this oven is to increase the fuel values of your wood and coal while also recovering some of the various potentially useful waste products."
 				""
@@ -2053,7 +2022,6 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
 			description: [
 				"The &bPhytogenic Insolator&r is a way to &9passively produce wood in the earlygame&r. While somewhat slow, it only requires &a3 EU/t&r to operate, meaning you can just set it down and not have to worry about it, and then come back to wood when you need some for crafting or steel production."
 				""
@@ -2111,7 +2079,7 @@
 		{
 			dependencies: ["3AB0402B19DD5BA8"]
 			description: ["Bigger barrels."]
-			id: "3E4DEA4FFD019AB9"
+			id: "211486B5F382D56D"
 			tasks: [{
 				id: "43A52392A8B2881C"
 				item: {
@@ -2137,10 +2105,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"64ABEB1EF9F81EA4"
-				"29A487F0BC43AAF9"
-			]
+			dependencies: ["64ABEB1EF9F81EA4"]
 			description: ["The &6Steam Foundry&r functions as 5.3 &7LV &3Alloy Smelters&r in parallel! It requires an input of &9Steam&r through a &eSteam Hatch&r, but it uses very little Steam, perfect for bulk crafting alloys or mold recipes."]
 			hide_until_deps_visible: true
 			icon: "steamadditions:steam_foundry"
@@ -2190,7 +2155,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Any of these items will suck nearby items into your inventory."
@@ -2240,7 +2204,6 @@
 			y: 5.75d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"To mute a Gregtech machine, right-click it with a &6Hammer&r. (Not the Mining kind!)"
 				""
@@ -2267,7 +2230,6 @@
 			y: 9.25d
 		}
 		{
-			dependencies: ["6FB3E3D9CA0F4B30"]
 			description: [
 				"A &aSoft Mallet&f can be used to temporarily stop a machine from functioning. While &9this can also be done by pressing the pause button within the machine's GUI&r, the Soft Mallet allows you to quickly turn machines on and off without entering their GUI. &2In either case, please note that the machine will only stop after it finishes its current recipe.&r This can be helpful if you are low on power, but is mostly useful when you need to upgrade a multiblock (more on those later)."
 				""
@@ -2403,7 +2365,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "534697B293609E6F"
+				id: "1FCC1E611A1769CF"
 				title: "Terminal"
 				type: "checkmark"
 			}]
@@ -2461,18 +2423,17 @@
 			y: 9.25d
 		}
 		{
-			dependencies: ["17312BF0197B87A8"]
 			description: [
 				"&6Machine Hulls&r, along with circuits, are used in nearly every &bGregTech&r machine."
 				""
 				"With over 20 uses for each tier of machine hull, you'll want to make a lot of these."
 			]
-			id: "604CCBE824D03A74"
+			id: "477973A9E23974D5"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "The First of Many"
 			tasks: [{
-				id: "5F8474E44C2FB07E"
+				id: "27BA38C047C11D6C"
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
@@ -2496,25 +2457,7 @@
 			}]
 			title: "Aluminium Dust (NM)"
 			x: -2.5d
-			y: 11.75d
-		}
-		{
-			dependencies: [
-				"5B0200011DF8E1B6"
-				"68897FC5F720BB4F"
-			]
-			description: ["&2With LV power, you can only get Aluminium Dust from electrolyzing Sapphire Dust or Green Sapphire Dust. Once you make an MV Electrolyzer, you can get it from a plethora of other raw resources, such as Clay.&r"]
-			hide_until_deps_visible: true
-			id: "12CDEB5A516171A8"
-			optional: true
-			tasks: [{
-				id: "59BC84773AD482D9"
-				item: "gtceu:aluminium_dust"
-				type: "item"
-			}]
-			title: "Aluminium Dust (HM/EM)"
-			x: -2.5d
-			y: 11.75d
+			y: 10.75d
 		}
 		{
 			dependencies: [
@@ -2739,7 +2682,7 @@
 				"Overclocks can be visualized with the help of &bEMI&r by interacting with the voltage tier indicator in the bottom right of machine recipes."
 			]
 			icon: "minecraft:clock"
-			id: "31AE366B15538079"
+			id: "7526EBC7FEFE6F5F"
 			subtitle: "Not to be confused with over-tiering"
 			tasks: [{
 				id: "3E9A029611797DBF"
@@ -3661,7 +3604,6 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["0EDFB0C24B9129AB"]
 			description: [
 				"&oThis is part of a Processing Line. Visit the Renewable Production tab to have more info, useful tips and a visual representation.&r"
 				""
@@ -3814,7 +3756,6 @@
 			y: -10.25d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: ["&9Pressing the second tab in any given machine's GUI will open up a view showing the machine and any blocks it is touching.&r From there, you can click on a side of the machine and easily add, edit and remove &acovers&r, and configure if the machine should &3automatically output&r and which side it should output to. "]
 			icon: "minecraft:hopper"
 			id: "509F1CA04B868923"
@@ -3829,7 +3770,6 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["17312BF0197B87A8"]
 			description: [
 				"&6Machine Hulls&r, along with circuits, are used in nearly every &bGregTech&r machine."
 				""

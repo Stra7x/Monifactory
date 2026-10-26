@@ -6,7 +6,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "kubejs:hv_universal_circuit"
 	id: "39B513DAFF8249A7"
-	order_index: 6
+	order_index: 3
 	quest_links: [
 		{
 			id: "25268A98C673BBDE"
@@ -15,13 +15,6 @@
 			size: 2.0d
 			x: -2.75d
 			y: 0.0d
-		}
-		{
-			id: "4A06A6BAEA6B6E24"
-			linked_quest: "73C1AB31431B5C11"
-			shape: "hexagon"
-			x: 7.0d
-			y: 6.5d
 		}
 		{
 			id: "3494A1A9317B9F3B"
@@ -633,25 +626,6 @@
 			title: "&2More Blast Furnaces"
 			x: 10.75d
 			y: -4.5d
-		}
-		{
-			dependencies: ["73C1AB31431B5C11"]
-			description: ["&6Redstone Flux Cells&r can store large amounts of power. They can be upgraded with the &6Holding&r enchantment, &6Integral Components&r, and &6RF Coil augments&r to boost their capacity."]
-			id: "09EED0C4106265BC"
-			rewards: [{
-				id: "452D3826F2B6022F"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4272F1401BFD6E31"
-				item: "thermal:energy_cell"
-				type: "item"
-			}]
-			title: "RF Storage"
-			x: 7.0d
-			y: 7.75d
 		}
 		{
 			description: [
@@ -1441,7 +1415,6 @@
 			y: -3.25d
 		}
 		{
-			dependencies: ["17312BF0197B87A8"]
 			description: ["Even simple rockets demand &6Double Plates&r for their construction. In this case, made out of &6Steel&r."]
 			id: "247F4985B9ACE568"
 			rewards: [{
@@ -1887,7 +1860,6 @@
 			y: 2.75d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: ["Waystones also &anaturally generate&r across the world, so nothing is stopping you from simply roaming around and stealing Waystones for your own needs."]
 			icon: "minecraft:ender_eye"
 			id: "6A8764DDD3489EE8"
@@ -2145,6 +2117,27 @@
 			title: "Discord and GitHub"
 			x: 3.5d
 			y: -6.5d
+		}
+		{
+			description: [
+				"Another alloy."
+				""
+				"&2In EV Age, you can build an Alloy Blast Smelter which performs the recipe faster."
+			]
+			id: "73C1AB31431B5C11"
+			rewards: [{
+				id: "461858A607CACCE1"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6194BD41B07BAA23"
+				item: "gtceu:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 4.5d
 		}
 	]
 	title: "HV"

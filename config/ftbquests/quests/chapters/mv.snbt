@@ -3,10 +3,10 @@
 	default_quest_shape: ""
 	filename: "mv"
 	group: "18F0ED1F9A002C08"
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "kubejs:mv_universal_circuit"
 	id: "35A56C29328C5200"
-	order_index: 4
+	order_index: 2
 	quest_links: [
 		{
 			id: "20D596271688188F"
@@ -21,10 +21,43 @@
 			x: 12.75d
 			y: -2.75d
 		}
+		{
+			id: "54DA67D96DDF6F24"
+			linked_quest: "73F8EA8E7DCC94E9"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "5E540F00EDE093D8"
+			linked_quest: "27FAD6A8FCFAB543"
+			shape: "hexagon"
+			x: -3.25d
+			y: 9.5d
+		}
+		{
+			id: "033ECFDA3CD105A5"
+			linked_quest: "2AC61192BCD459F2"
+			shape: "hexagon"
+			x: -3.25d
+			y: 12.0d
+		}
+		{
+			id: "72565F33DD274CB5"
+			linked_quest: "6169C04DF463502F"
+			shape: "gear"
+			size: 2.0d
+			x: -3.25d
+			y: 14.5d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["3AB0402B19DD5BA8"]
+			dependencies: [
+				"3AB0402B19DD5BA8"
+				"3054D3CE8F49AB20"
+			]
 			description: [
 				"You might notice that these hulls can be made more cheaply in an &3Assembler&r, but you don't have that weird fluid. Don't worry, you'll be able to make that soon."
 				""
@@ -738,8 +771,8 @@
 				item: "gtceu:lv_emitter"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.75d
+			x: 5.25d
+			y: 9.25d
 		}
 		{
 			dependencies: ["2C6BEB5BBE5A91DC"]
@@ -872,8 +905,8 @@
 				type: "item"
 			}]
 			title: "&9Charging Items Wirelessly"
-			x: 4.75d
-			y: 7.75d
+			x: 5.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["64ABEB1EF9F81EA4"]
@@ -983,8 +1016,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.25d
-			y: 7.75d
+			x: 7.0d
+			y: 9.25d
 		}
 		{
 			dependencies: ["5C78349343BA40D7"]
@@ -1091,8 +1124,8 @@
 				type: "item"
 			}]
 			title: "Inspector Gadget"
-			x: 5.75d
-			y: 9.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3E42B4AAA6D2A05B"]
@@ -1134,8 +1167,8 @@
 				type: "item"
 			}]
 			title: "Pocket-sized pocket dimensions"
-			x: 7.25d
-			y: 9.5d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1416,7 +1449,6 @@
 			y: 1.25d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
 			description: [
 				"&6Sulfur&r will be used in a variety of upcoming chemical reactions."
 				""
@@ -1555,6 +1587,122 @@
 			title: "Discord and GitHub"
 			x: -1.5d
 			y: -7.25d
+		}
+		{
+			dependencies: [
+				"1BC6DDC2D50F9C46"
+				"5C4E189A3E401566"
+			]
+			description: [
+				"This alloy is made from &2mixing 2 Gold Dust, 1 Redstone, and 1 Glowstone Dust in a Mixer, creating Energetic Alloy Dust,&r and putting it in your new &3Electric Blast Furnace&r."
+				""
+				"Throw &2the prepared dust into the input bus&r and in twenty seconds your &6Energetic Alloy Ingot&r will be in the output bus."
+				""
+				"&2In EV, you can build an Alloy Blast Smelter which performs the recipe faster."
+			]
+			id: "6A914B240E1A7BCB"
+			rewards: [{
+				id: "38132DACC54B8BA2"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FF7158E0BBDD3AE"
+				item: "gtceu:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -7.25d
+		}
+		{
+			description: [
+				"&aLV Batteries&r were very simple to make, but more effective forms of power storage will be more complex to build, so we'll need to lay the groundwork now."
+				""
+				"For the &6Antimony&r you'll need, smelt &6Stibnite Ore&r or process &6Tetrahedrite Ore&r and &6Realgar Ore&r."
+			]
+			icon: "gtceu:lv_canner"
+			id: "74935A3553451178"
+			rewards: [{
+				id: "1BE0BCDCAD59B0D7"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "738E125A32EE6F95"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_canner"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_canner"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_canner"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D63025FF7ECE794"
+					item: "gtceu:antimony_dust"
+					type: "item"
+				}
+				{
+					id: "508B2CC77AAF69B7"
+					item: "gtceu:battery_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "Canner"
+			x: -3.375d
+			y: -0.375d
+		}
+		{
+			dependencies: ["1DBBE96165C7987D"]
+			description: [
+				"When making circuits, you'll need either &9Liquid Tin&r, or &9Liquid Soldering Alloy&r&r&r. &2Soldering Alloy is made in the Mixer with 6 parts Tin Dust, 3 parts Lead Dust and 1 part Antimony Dust.&r You then process it in an &3Extractor &rfor the usual 144mB of fluid per unit."
+				""
+				"The &2Circuit Assembler&r will only consume half as much Soldering Alloy as it would have consumed Liquid Tin per craft (72mB vs 144mB), so it's very efficient to use this stuff."
+				""
+				"&2Antimony can be directly smelted from Stibnite Ore, allowing you to skip ore processing for this."
+			]
+			icon: "gtceu:soldering_alloy_bucket"
+			id: "56924FC6B029BA0F"
+			rewards: [{
+				id: "0567EE8C4FB9F984"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "00DCE69057EC3D8F"
+					item: "gtceu:soldering_alloy_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "424B2600A9124D11"
+					item: "gtceu:soldering_alloy_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Soldering Alloy"
+			x: 0.625d
+			y: 7.8125d
 		}
 	]
 	title: "MV"

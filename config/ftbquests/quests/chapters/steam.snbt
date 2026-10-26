@@ -13,8 +13,8 @@
 			image: "monifactory:textures/quests/discord-symbol-white.png"
 			rotation: 0.0d
 			width: 1.32d
-			x: -3.0d
-			y: -9.75d
+			x: -2.0d
+			y: -4.25d
 		}
 		{
 			click: "https://github.com/Omicron-Industries/Monifactory"
@@ -23,28 +23,12 @@
 			image: "monifactory:textures/quests/github_invertocat_white.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: -9.75d
+			x: 2.0d
+			y: -4.25d
 		}
 	]
 	order_index: 0
-	quest_links: [
-		{
-			id: "6DC914192E886D47"
-			linked_quest: "77670BF761084AA2"
-			shape: "hexagon"
-			size: 1.25d
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			id: "7DBAA4D913BF72B7"
-			linked_quest: "42DB312E05F7A2FE"
-			shape: "diamond"
-			x: -4.75d
-			y: 1.0d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -67,20 +51,20 @@
 				"[\"\",{\"text\":\"Text with \"},{\"underlined\":true,\"text\":\"underlines\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"But not this!\"}}},{\"text\":\" are (mostly) clickable.\"}]"
 			]
 			icon: "minecraft:crafting_table"
-			id: "66FCC26399376B55"
+			id: "77A783FB35A327DC"
 			rewards: [
 				{
-					id: "031A59BA80B8796A"
+					id: "169A285A7C137144"
 					item: "telepastries:custom_cake"
 					type: "item"
 				}
 				{
-					id: "7539BE70E1B3DB39"
+					id: "0A6FB4F4EDD37479"
 					item: "telepastries:overworld_cake"
 					type: "item"
 				}
 				{
-					id: "4227D8CC87BE7710"
+					id: "0FB59A8EA6CAA305"
 					item: {
 						Count: 1
 						id: "gtceu:prospector.hv"
@@ -92,7 +76,7 @@
 				}
 				{
 					count: 4
-					id: "1C580CB98F808631"
+					id: "0C588B7FD5D37B8E"
 					item: {
 						Count: 1
 						id: "gtceu:diamond_mining_hammer"
@@ -118,7 +102,7 @@
 					type: "item"
 				}
 				{
-					id: "22786EAAD70B619D"
+					id: "73ECA091CE7FDAA5"
 					item: {
 						Count: 1
 						id: "gtceu:diamond_axe"
@@ -140,7 +124,7 @@
 					type: "item"
 				}
 				{
-					id: "651C872D23C1E650"
+					id: "0FA95A7A17203BA1"
 					item: {
 						Count: 1
 						id: "gtceu:diamond_spade"
@@ -168,7 +152,7 @@
 				{
 					auto: "invisible"
 					icon: "enderio:cake_base"
-					id: "392C56C1DA9D7978"
+					id: "603A2DD8099032E8"
 					title: "&6Infinite Cakes!"
 					type: "custom"
 				}
@@ -177,17 +161,17 @@
 			size: 2.0d
 			subtitle: "Welcome to Monifactory"
 			tasks: [{
-				id: "1FF132DED1748D11"
+				id: "43A928BC22EC879A"
 				title: "Genesis #3"
 				type: "checkmark"
 			}]
 			title: "&9Genesis"
-			x: -1.0d
-			y: -5.75d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: [
 				"In &9Monifactory&r, all dimensional transit is done through the power of &6TelePastries&r. No Portals here!"
 				""
@@ -197,26 +181,27 @@
 			]
 			disable_toast: true
 			icon: "telepastries:overworld_cake"
-			id: "542F0090D8975D3C"
+			id: "260DF1472BFF3F6E"
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1F03FEFB5B2A3B47"
+				id: "4120E3F24F836E44"
 				table_id: 7942624913962637807L
 				type: "choice"
 			}]
+			size: 1.25d
 			subtitle: "Cakes are quantum objects!"
 			tags: ["moni_cakequest"]
 			tasks: [
 				{
-					id: "423B4FAF11B1C0FA"
+					id: "4094462E59A2FE8D"
 					title: "Cake Based Dimensional Transit"
 					type: "checkmark"
 				}
 				{
 					disable_toast: true
 					icon: "minecraft:clock"
-					id: "138B92A597D63C12"
+					id: "3E0C1A3395332572"
 					tags: [
 						"moni_timer"
 						"moni_timer_60"
@@ -226,11 +211,11 @@
 				}
 			]
 			title: "Cake Based Dimensional Transit"
-			x: -3.0d
-			y: -6.25d
+			x: -2.0d
+			y: -0.6d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: [
 				"&bFunctional Storage&f provides a huge amount of storage for a single item type. Use them for things you have a lot of, such as stone, dirt and ores."
 				""
@@ -239,11 +224,12 @@
 				"Furthermore, you can do special stuff with your drawers, with &9Tools&r and &9Upgrades! Search &e@Functionalstorage&r in &bEMI&r to see them!"
 			]
 			disable_toast: true
-			id: "4A696D4BA5442928"
+			id: "10A1234AD7AEF758"
 			optional: true
+			size: 1.25d
 			subtitle: "&oThis quest completes with any drawer."
 			tasks: [{
-				id: "02543E826A43185A"
+				id: "12675A5368D9D0D4"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -255,11 +241,11 @@
 				type: "item"
 			}]
 			title: "&9Drawers"
-			x: -3.0d
-			y: -5.25d
+			x: -2.0d
+			y: 0.6d
 		}
 		{
-			dependencies: ["09C8FE545131A402"]
+			dependencies: ["133B31B88DC65834"]
 			description: [
 				"&b&lEMI&r is the list of all items that you see every time you open your inventory. It's the better(tm) recipe book that shows you all available items and recipes in the modpack. Note that &b&lEMI&r is based on &b&lJEI&r, and people tend to use the names interchangeably."
 				""
@@ -273,22 +259,20 @@
 			]
 			disable_toast: true
 			icon: "ftbquests:book"
-			id: "3B200AD6EFF90DFA"
-			size: 1.0d
+			id: "565CEB96B808827A"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "&eUSE EMI!!!&r"
 			tasks: [{
-				id: "7449A54608D60DF8"
+				id: "3D960F11E60576E5"
 				type: "checkmark"
 			}]
 			title: "&9&lUse EMI! Use EMI! USE. EMI."
-			x: -1.0d
-			y: -2.75d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"58566C7BF4C22D86"
-				"7A7B7CF403014757"
-			]
+			dependencies: ["5BBF1938168F115D"]
 			description: [
 				"&c&rOres in &9Monifactory&f exist in large clusters, or '&eveins&f'. These veins are scattered around the world, and are relatively common. &2The upgraded HV Electric Prospector's Scanner you were given will tell you the types of ores you can find within a 7x7 chunk area! &9You can also click on an ore vein to mark it on your map!"
 				"&r"
@@ -300,9 +284,9 @@
 			]
 			hide_until_deps_complete: true
 			icon: "gtceu:wrought_iron_ingot"
-			id: "2E8BFA2E719B1C47"
+			id: "7F41F6FD59E77410"
 			rewards: [{
-				id: "318894ADCA9CF9DB"
+				id: "4D1286129567406B"
 				item: {
 					Count: 1
 					id: "trofers:large_pillar"
@@ -315,45 +299,46 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "ULV Beginnings"
 			tasks: [
 				{
 					count: 12L
-					id: "2A510F7AFB3A7019"
+					id: "123E769D7098F9E3"
 					item: { Count: 12, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 12L
-					id: "5B599343AEB7F56C"
+					id: "73557F33D4562FE6"
 					item: { Count: 12, id: "gtceu:wrought_iron_ingot" }
 					type: "item"
 				}
 			]
 			title: "Iron Supply"
-			x: -1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
 			description: [
 				"&bSophisticated Storage&r and &bSophisticated Backpacks&r are great options for storing items, both at your base and on the go, as well as offering a variety of both helpful and fun upgrades."
 				""
 				"&bSophisticated Storage&r in particular is great for cheap storage, able to store 3 barrels worth of items at its lowest tier, costing only a bit of steel and invar to craft, and can be upgraded with barrel upgrades to hold even more items and upgrades."
 			]
-			id: "61E5D7EEE745C6FB"
+			id: "64CEEEEB624321B1"
 			rewards: [{
 				count: 4
-				id: "269E89EDD3A32100"
+				id: "14FDEB0E2E258937"
 				item: "sophisticatedstorage:hopper_upgrade"
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			subtitle: "Bags of holding"
 			tasks: [
 				{
-					id: "46CA42CF7D0730E6"
+					id: "3A2DA7AB8CFD6D5B"
 					item: {
 						Count: 1
 						id: "itemfilters:or"
@@ -447,7 +432,7 @@
 					type: "item"
 				}
 				{
-					id: "3A3F4984E9A1A81E"
+					id: "1EBA3A13B3AAE559"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -460,11 +445,11 @@
 				}
 			]
 			title: "&9Sophisticated Storage Shenanigans"
-			x: 3.25d
-			y: 2.25d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["3B200AD6EFF90DFA"]
+			dependencies: ["565CEB96B808827A"]
 			description: [
 				"&bGregtech&r adds a decent bit of extra crafting to the earlygame. Thankfully, &bEMI&r has some tools to help make your life &9&lMUCH&r easier when doing all this crafting."
 				""
@@ -480,20 +465,20 @@
 			]
 			disable_toast: true
 			icon: "quark:crafter"
-			id: "58566C7BF4C22D86"
-			shape: "square"
-			size: 1.0d
+			id: "67690A0E04224141"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "Better than any crafting calculator."
 			tasks: [{
-				id: "3768A707E0489471"
+				id: "69B9A5B79CBB478E"
 				type: "checkmark"
 			}]
-			title: "&9Recipe Trees and Crafting Trees"
-			x: 0.0d
-			y: -1.25d
+			title: "&9Recipe Trees"
+			x: 1.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
 			description: [
 				"The &eTool Belt&r is an item which can store your tools and exchange them easily! Right now, it has 2 slots, but later, once you unlock &6Steel&r, you can upgrade it all the way to 9 slots with &6Belt Pouches&r, an &3Anvil&r, and some &aXP&r!"
 				""
@@ -507,171 +492,46 @@
 				""
 				"Now, you can insert and extract from the belt! You can also use the Keybinds '&eCycle Tool Left&r' and '&eCycle Tool Right&r' whilst you are in the GUI."
 			]
-			id: "1B86EF5A24286787"
+			id: "5ACE6D43815B7029"
 			rewards: [{
-				id: "637891A6BC00C62D"
+				id: "6D97A2A7552FE507"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			subtitle: "&2A highly requested mod to help you manage your tools!&r"
 			tasks: [{
-				id: "2BFE87C449C8D8F3"
+				id: "45977D529A28B4C7"
 				item: "toolbelt:belt"
 				type: "item"
 			}]
 			title: "&2Tool Belt"
 			x: -3.0d
-			y: -0.25d
+			y: 8.0d
 		}
 		{
-			description: ["No hoops to jump through here. Smelt &6Wood Logs&f to get &6Charcoal&f. It will serve you well as a fuel source until you locate a vein of &6Coal&f."]
-			id: "5D97206C8135872B"
-			shape: "diamond"
-			tasks: [{
-				id: "36D486BE19669899"
-				item: "minecraft:charcoal"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
 			description: ["&3Iron Furnaces&f can smelt an item in &a160 ticks&f, which is somewhat faster than a vanilla &6Furnace&f, which takes &a200 ticks&f. The fuel efficiency remains the same for all furnaces."]
-			id: "7865CDE5CFE005DC"
+			id: "7A0FF904A754F57F"
 			rewards: [{
-				id: "55F7CA98F66953A1"
+				id: "571A288FC88DA0B8"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
-				id: "6A2879717EF57D8A"
+				id: "17A6F79CDF1586CA"
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
 			title: "Furnace v2.0"
-			x: 5.75d
-			y: 1.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["7865CDE5CFE005DC"]
-			description: ["&3Copper Furnaces&f are another step up in speed, taking &a100 ticks&f to smelt an item."]
-			id: "0591171F13A45283"
-			rewards: [{
-				id: "20FC1982A662B6C6"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "14CDC80A449BD388"
-				item: "ironfurnaces:copper_furnace"
-				type: "item"
-			}]
-			title: "Furnace v3.0"
-			x: 5.75d
-			y: 2.25d
-		}
-		{
-			dependencies: ["0591171F13A45283"]
-			description: ["&3Silver Furnaces&f are another step up in speed, taking a mere &a70 ticks&f to smelt an item."]
-			id: "3F77EDE69BB649DA"
-			rewards: [{
-				id: "77EC0D08F5C99E37"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "266C775298CDC137"
-				item: "ironfurnaces:silver_furnace"
-				type: "item"
-			}]
-			title: "Furnace v4.0"
-			x: 5.75d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3F77EDE69BB649DA"]
-			description: ["&3Gold Furnaces&f are yet another step up in speed, taking only &a40 ticks&f to smelt an item."]
-			id: "6B121BEFD852BC2D"
-			rewards: [{
-				id: "045094D4927E2AB5"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0FD61CD4D237D131"
-				item: "ironfurnaces:gold_furnace"
-				type: "item"
-			}]
-			title: "Furnace v5.0"
-			x: 5.75d
-			y: 4.75d
-		}
-		{
-			dependencies: ["6B121BEFD852BC2D"]
-			description: ["&3Diamond Furnaces&f are even faster, taking only &a25 ticks&f to smelt an item."]
-			id: "1AE46C1970378083"
-			rewards: [{
-				id: "4F7C761D3657868A"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "67B5E4F996C454C8"
-				item: "ironfurnaces:diamond_furnace"
-				type: "item"
-			}]
-			title: "Furnace v6.0"
-			x: 5.75d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1AE46C1970378083"]
-			description: ["&3Obsidian Furnaces&f are slightly faster than &3Diamond Furnaces&f, taking only &a20 ticks&r to smelt an item, and are also blastproof."]
-			id: "3969150B59EA38A2"
-			rewards: [{
-				id: "7BADB8C39CADB5FF"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "223332FE4EEB31B0"
-				item: "ironfurnaces:obsidian_furnace"
-				type: "item"
-			}]
-			title: "Furnace v7.0"
-			x: 5.75d
-			y: 7.25d
-		}
-		{
-			dependencies: ["3969150B59EA38A2"]
-			description: ["It smelts items at a blazing quick &a5 ticks&r each, but is incredibly expensive and only included here for completeness. You should just make a &3Multi Smelter&r instead."]
-			hide_until_deps_complete: true
-			id: "69E77BD01CFF65EB"
-			rewards: [{
-				id: "2BBD659B19ED9807"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "015B7C7A82AE67C5"
-				item: "ironfurnaces:netherite_furnace"
-				type: "item"
-			}]
-			title: "Furnace v8.0"
-			x: 5.75d
-			y: 8.5d
-		}
-		{
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: [
 				"&aMining Hammers&r offer a relatively cheap way to mine out areas much faster. They clear a 3x3 area of blocks (unless you're crouching) and mine quickly."
 				""
@@ -689,17 +549,18 @@
 					}
 				}
 			}
-			id: "07D45A3F8A74A61C"
+			id: "29A9285959B0B5B3"
 			rewards: [{
-				id: "0969EFC84AA58A45"
+				id: "7605BEEAB236A31F"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			subtitle: "Diggy Diggy Hole"
 			tasks: [{
 				consume_items: false
-				id: "589A0779F965D77A"
+				id: "3C98D83CCB81DD3C"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -712,11 +573,11 @@
 				type: "item"
 			}]
 			title: "Mining Hammers"
-			x: 1.0d
-			y: -4.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: ["&6Gregtech Axes&9 are able to veinmine an entire tree at once!"]
 			icon: {
 				Count: 1
@@ -737,10 +598,11 @@
 					HideFlags: 2
 				}
 			}
-			id: "527F56DFAD5E20EC"
+			id: "0F9D2D32E000F55B"
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
-				id: "254A555916313F70"
+				id: "7D8FF627D8EFCB7F"
 				item: {
 					Count: 1
 					id: "itemfilters:id_regex"
@@ -752,8 +614,8 @@
 				type: "item"
 			}]
 			title: "&9Tree chopping"
-			x: -3.0d
-			y: -4.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["42DB312E05F7A2FE"]
@@ -767,9 +629,9 @@
 				"You can see which mod a machine is from with the &9blue text&f at the bottom of its tooltip."
 			]
 			icon: "enderio:yeta_wrench"
-			id: "04A0863937695AC4"
+			id: "0C1078208290850D"
 			rewards: [{
-				id: "247FC44B6E456222"
+				id: "447C08DC46B20185"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
@@ -777,12 +639,12 @@
 			subtitle: "Confused about all the Wrenches yet?"
 			tasks: [
 				{
-					id: "70251EAC64217000"
+					id: "193A195411587E68"
 					item: "enderio:yeta_wrench"
 					type: "item"
 				}
 				{
-					id: "1F3EDCBF5EB70229"
+					id: "584C741E2CCD01EA"
 					item: {
 						Count: 1
 						id: "gtceu:wrought_iron_wrench"
@@ -794,7 +656,7 @@
 					type: "item"
 				}
 				{
-					id: "20854F1345AB6B1E"
+					id: "172B38CC8D754121"
 					item: {
 						Count: 1
 						id: "thermal:wrench"
@@ -804,8 +666,8 @@
 				}
 			]
 			title: "&9Wrenches Galore"
-			x: -6.25d
-			y: 1.0d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["42DB312E05F7A2FE"]
@@ -816,25 +678,26 @@
 				""
 				"Also, you can now repair your free &6Mining Hammers&r with some &6Diamonds&r!"
 			]
-			id: "5430ED88A8D10502"
+			id: "787FA0B75456743D"
 			rewards: [{
-				id: "1B638AF68A084203"
+				id: "2ED5C55A776E4E9A"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "square"
+			size: 1.0d
 			subtitle: "&3Anvils&f can be used to repair almost all &bGregTech tools&f!"
 			tasks: [{
-				id: "38E44244B336F941"
+				id: "1617DD7F34EE35EF"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
 			title: "Proper Tool Care"
-			x: -6.25d
-			y: -0.25d
+			x: -6.5d
+			y: 12.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["42DB312E05F7A2FE"]
 			description: [
 				"&6Redstone&f: Exclusively found in massive veins paired with &6Cinnabar&f and &6Ruby&f, in the Deepslate layer."
 				""
@@ -847,105 +710,103 @@
 				"&6Gold&f: Found inside of &6Magnetite&f veins, relatively close to the surface."
 			]
 			icon: "minecraft:redstone"
-			id: "1229234A71CE0A99"
+			id: "5F0354B89C3A3E31"
 			rewards: [{
 				count: 2
-				id: "79C449A6BEC8941F"
+				id: "70023B9D379FEB6F"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "Before you continue, you'll need access to some more materials."
 			tasks: [
 				{
 					count: 76L
-					id: "581CD7E50AC3F5E3"
+					id: "6D836DCA26D0447E"
 					item: "minecraft:redstone"
 					type: "item"
 				}
 				{
 					count: 36L
-					id: "102B3966BE895F45"
+					id: "1B0E02D19CCEE93F"
 					item: { Count: 36, id: "minecraft:copper_ingot" }
 					type: "item"
 				}
 				{
 					count: 20L
-					id: "3CEB53996CBB7381"
+					id: "29E1A0CBC5D24125"
 					item: { Count: 20, id: "gtceu:tin_ingot" }
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "5A94EE9BCBADE6BF"
+					id: "586EF0AC359BB3FE"
 					item: { Count: 16, id: "minecraft:coal" }
 					type: "item"
 				}
 				{
 					count: 6L
-					id: "77FEEB10E7B091B8"
+					id: "6504313B1EE9EFC3"
 					item: { Count: 6, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 			]
 			title: "More Materials"
-			x: -3.0d
-			y: 3.5d
+			x: -5.0d
+			y: 16.0d
 		}
 		{
-			dependencies: [
-				"18F01BB67968C209"
-				"57780BEA90F01CCC"
-			]
+			dependencies: ["18F01BB67968C209"]
 			description: [
 				"Although most &ealloys&f require an &3Alloy Smelter&f, some alloys can be made simply by mixing the correct metal dusts together. "
 				""
 				"&6Steel&r is one of these alloys, being made by mixing &6Wrought Iron Dust&r with &6Coal Dust&r or &6Charcoal dust&r. &2Steel forms the basis of LV Machine Hulls&r, and allows you to make &6Belt Pouches&r for upgrading your &eTool Belt&r."
 			]
-			id: "17312BF0197B87A8"
+			id: "4C7D8693740B54C1"
 			rewards: [{
 				count: 2
-				id: "716AB913E59B120B"
+				id: "01E00C1AFCE833C0"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				count: 64L
-				id: "7DCB0AE4BF702D13"
+				id: "4C4A446B7FA55160"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
 			title: "&9Better Steel"
-			x: 2.25d
-			y: 7.25d
+			x: 2.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["42DB312E05F7A2FE"]
 			description: [
-				"Feeding a &3Steam Dynamo&f with water by hand is a pretty silly idea."
+				"Feeding a &3Large Bronze Boiler&f with water by hand is a pretty silly idea."
 				""
 				"A &6Water Collector&f will take care of that for you, albeit slowly. It does, however, auto-output the water, making it simple to use."
 				""
 				"&2GTm has a Primitive Water Pump, which can do it faster. However, it requires Treated Wood, which requires Creosote from a Coke Oven."
 			]
-			id: "0FF18D13CD42F48A"
+			id: "33C63AE101CE244F"
 			rewards: [{
-				id: "5B48A2DC5BF8979D"
+				id: "49093B4B4C6D5DE9"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
-				id: "2ECEDA36F2ADFDE8"
+				id: "26F476F33E0B8A57"
 				item: "watercollector:watercollector"
 				type: "item"
 			}]
 			title: "&9Infinite Water"
-			x: -4.75d
-			y: 2.25d
+			x: -2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0D37D05A6B66055F"]
@@ -956,26 +817,26 @@
 				""
 				"Rubber can be hammered into sheets just like metals can be turned into plates. It's quite inefficient to do it this way, but such is the life of early game &bGregTech&f. At least rubber isn't particularly hard to come by."
 			]
-			id: "6FB3E3D9CA0F4B30"
+			id: "71B8ABEBD1E08383"
 			rewards: [{
-				id: "4949E1AF8C656F3D"
+				id: "146AC285BD4B67DA"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				count: 3L
-				id: "7BA753DF38DEC329"
+				id: "1F0B0DD632A7CD6F"
 				item: { Count: 3, id: "gtceu:rubber_plate" }
 				type: "item"
 			}]
 			title: "Rubber Sheets"
-			x: -1.5d
-			y: 3.5d
+			x: -2.0d
+			y: 18.5d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
+			dependencies: ["5F0354B89C3A3E31"]
 			description: [
 				"Although most &ealloys&f require an &3Alloy Smelter&f, some alloys can be made simply by mixing the correct metal dusts together. "
 				""
@@ -986,72 +847,72 @@
 				"&3Smelt&f it into ingots, &3hammer&f it into &6Plates&f, and &3cut&f them into &6Wires&f."
 			]
 			icon: "gtceu:red_alloy_dust"
-			id: "7FA0E6F3B466576C"
+			id: "6DCF0B0551B2A5BF"
 			rewards: [{
-				id: "20BC4F07424D7664"
+				id: "4F7C26CEE28783E2"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [
 				{
 					count: 16L
-					id: "6FE4A0D51F6AF22F"
+					id: "4923CF60B0B8964C"
 					item: { Count: 16, id: "gtceu:copper_dust" }
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "6449998172457471"
+					id: "02FF27D6F857F4F0"
 					item: { Count: 16, id: "gtceu:red_alloy_dust" }
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "16D7046417209756"
+					id: "031049F883CB90A7"
 					item: { Count: 16, id: "gtceu:red_alloy_ingot" }
 					type: "item"
 				}
 				{
 					count: 32L
-					id: "57A26AF688B59DAB"
+					id: "440063CBA25707E5"
 					item: { Count: 32, id: "gtceu:iron_dust" }
 					type: "item"
 				}
 				{
 					count: 32L
-					id: "5627DEBC5B168743"
+					id: "47A703474EC0BDB6"
 					item: { Count: 32, id: "gtceu:conductive_alloy_ingot" }
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "15CAA2C5B513BFC2"
+					id: "4B024865B1CFC802"
 					item: { Count: 8, id: "gtceu:red_alloy_plate" }
 					type: "item"
 				}
 				{
 					count: 3L
-					id: "14B188414BF825E6"
+					id: "4C4A2AD4C94DC5BB"
 					item: { Count: 12, id: "gtceu:red_alloy_single_wire" }
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "7B8835F95B9739D6"
+					id: "056582D7F066F5CA"
 					item: { Count: 16, id: "gtceu:conductive_alloy_single_wire" }
 					type: "item"
 				}
 			]
 			title: "From Dust to Wires"
-			x: -3.0d
-			y: 6.0d
+			x: -5.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
-				"6FB3E3D9CA0F4B30"
-				"7FA0E6F3B466576C"
+				"6DCF0B0551B2A5BF"
+				"71B8ABEBD1E08383"
 			]
 			description: [
 				"The most basic cables, such as these &6Red Alloy Cables&f, can be wrapped in their &6Rubber&f insulation by hand."
@@ -1067,26 +928,26 @@
 				""
 				"Consider using &aSuperconductors&r or positioning machines close to your power source."
 			]
-			id: "12B95158E4C792DB"
+			id: "4CBC4C49065BD832"
 			rewards: [{
-				id: "720A4DC6D3957258"
+				id: "6111792B7130D051"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				count: 12L
-				id: "24A84AB536BB27B0"
+				id: "4D05080F1C53C061"
 				item: { Count: 12, id: "gtceu:red_alloy_single_cable" }
 				type: "item"
 			}]
 			title: "&2Cables"
-			x: -1.5d
-			y: 6.0d
+			x: -2.0d
+			y: 21.5d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: [
 				"While there are no types of veins that are extremely rare, you're likely to struggle with finding at least one of the less common vein types. This isn't really avoidable."
 				""
@@ -1094,9 +955,9 @@
 				"[\"\",{\"text\":\"You will accumulate a lot of \"},{\"color\":\"gold\",\"text\":\"Monicoins\"},{\"text\":\" Search for various ores (generally the first one listed in \"},{\"color\":\"aqua\",\"text\":\"EMI\"},{\"text\":\") to find the coin recipes for them. Alternatively, hover your cursor over a coin and press \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"U\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Show Uses\\\" in keybind option\"}}},{\"text\":\" to see what you can buy with it.\"}]"
 			]
 			icon: "kubejs:moni_dollar"
-			id: "115D2BEB18929C7C"
+			id: "6CD4982E0F20E1B9"
 			rewards: [{
-				id: "43415141DBD13CDD"
+				id: "41BF438ADAF16AC1"
 				item: {
 					Count: 1
 					id: "nomowanderer:no_mo_wanderer_totem"
@@ -1106,15 +967,16 @@
 				}
 				type: "item"
 			}]
+			size: 1.25d
 			subtitle: "Don't be a hoarder!"
 			tasks: [
 				{
-					id: "7275E7D7E7F140B8"
+					id: "1D2F282EA1341251"
 					type: "checkmark"
 				}
 				{
 					disable_toast: true
-					id: "34ADCB8BA7F14B03"
+					id: "6A9840696B48DDD0"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -1128,11 +990,11 @@
 				}
 			]
 			title: "Spend Your Coins!"
-			x: -1.0d
-			y: -8.25d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["115D2BEB18929C7C"]
+			dependencies: ["6CD4982E0F20E1B9"]
 			description: [
 				"In most expert packs, you want to try to process as little ore as possible before you get access to ore processing. It's a habit most of us pick up."
 				""
@@ -1142,15 +1004,17 @@
 				""
 				"Obvious exceptions would be rare materials or anything you buy with &9Monicoins &fbecause you can't find it. Those are worth doubling, if possible."
 			]
+			hide_dependency_lines: false
 			icon: "gtceu:crushed_redstone_ore"
-			id: "17E92ED356B6737F"
+			id: "4C0E6314441EBE04"
+			size: 1.25d
 			tasks: [{
-				id: "36817889D65727FA"
+				id: "6E7D515DF2B726D5"
 				type: "checkmark"
 			}]
 			title: "&2Ore Doubling?"
-			x: -3.0d
-			y: -8.25d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -1166,19 +1030,20 @@
 			]
 			disable_toast: true
 			icon: "minecraft:writable_book"
-			id: "70026930847E8EC0"
+			id: "465A9AC0E69928A6"
 			optional: true
+			size: 1.25d
 			subtitle: "what's a voltage? can I eat it?"
 			tasks: [{
-				id: "1278CD7DD38F751A"
+				id: "2EAA2CE1B80A3303"
 				type: "checkmark"
 			}]
 			title: "Discord and GitHub"
-			x: -1.0d
-			y: -9.75d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
 			description: [
 				"&bGregTech&r adds an &einteractive in-world preview&r for all &bGregTech&r multiblocks! &6Shift-right-click&r a placed controller &ewith an empty hand&r to activate a hologram depicting the default layout of the structure to help you with building. As you place blocks, the structure will be validated and the &efirst incorrect block&r it detects will be highlighted in red."
 				"{@pagebreak}"
@@ -1194,20 +1059,21 @@
 			]
 			disable_toast: true
 			hide_dependency_lines: true
-			icon: "gtceu:electric_blast_furnace"
-			id: "50591843C8501055"
+			icon: "gtceu:bronze_large_boiler"
+			id: "349AB63A28FD95B2"
 			optional: true
+			size: 1.0d
 			tasks: [{
-				id: "0765BFA6BDBFD386"
+				id: "42549C2D094A3AC5"
 				type: "checkmark"
 			}]
 			title: "Multiblock Machine Previews"
-			x: 3.25d
-			y: 3.5d
+			x: 1.25d
+			y: 13.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: [
 				"Prospectors show a display of the ores available in the chunks around you."
 				""
@@ -1219,10 +1085,10 @@
 			]
 			disable_toast: true
 			icon: "gtceu:prospector.hv"
-			id: "726528BE5A1A6AC2"
+			id: "267BB4A426BCB9C4"
 			optional: true
 			rewards: [{
-				id: "21CED765A341AC89"
+				id: "279EAC4FFA589E2B"
 				item: {
 					Count: 1
 					id: "gtceu:prospector.hv"
@@ -1232,17 +1098,18 @@
 				}
 				type: "item"
 			}]
+			size: 1.25d
 			tasks: [
 				{
 					consume_items: true
-					id: "652A1DDFD9E1626F"
+					id: "582D0EAD7656411A"
 					item: "gtceu:prospector.hv"
 					match_nbt: false
 					type: "item"
 				}
 				{
 					icon: "minecraft:clock"
-					id: "028124026E3BCE59"
+					id: "4DF06C007DAA6AD6"
 					tags: [
 						"moni_timer"
 						"moni_timer_60"
@@ -1252,11 +1119,11 @@
 				}
 			]
 			title: "Recharge Your Prospector!"
-			x: 1.0d
-			y: -5.25d
+			x: 2.0d
+			y: 0.6d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
+			dependencies: ["5F0354B89C3A3E31"]
 			description: [
 				"This pack has &aSnad&r, which is simply a sand-like block that instantly grows sugar cane/cactus on top of it when it receives either a block update or a redstone update."
 				""
@@ -1272,86 +1139,89 @@
 				"[\"\",{\"text\":\"If the noises are annoying to you, take a look at \"},{\"underlined\":true,\"text\":\"this\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5B52FFEBF5D65C20\"}},{\"text\":\" quest to see how to mute them.\"}]"
 			]
 			icon: "snad:snad"
-			id: "529D50CE814AF449"
+			id: "3412D62F98894D59"
 			shape: "diamond"
+			size: 1.25d
 			subtitle: "Yes, Snad."
 			tasks: [
 				{
-					id: "77ADD3B3DA61DC55"
+					id: "69AA8E49F29081B4"
 					item: "snad:snad"
 					type: "item"
 				}
 				{
-					id: "719FAF0F70FA25E5"
+					id: "1C90C145538D5307"
 					item: "enderio:vacuum_chest"
 					type: "item"
 				}
 				{
-					id: "2DCBDFF5EB0F7CD9"
+					id: "2413FC847EBF944F"
 					item: "redstoneclock:redstone_clock"
 					type: "item"
 				}
 				{
-					id: "3DBB91C93688C4FC"
+					id: "721EE1934D5801C1"
 					item: "functionalstorage:void_upgrade"
 					type: "item"
 				}
 			]
 			title: "Snad"
-			x: -4.75d
-			y: 6.0d
+			x: -2.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["7865CDE5CFE005DC"]
+			dependencies: ["7A0FF904A754F57F"]
 			description: ["All furnaces from &bIron Furnaces&r can be augmented to be &afaster&r, more &afuel efficient&r, and &asmelt multiple items at once&r!"]
-			id: "5D5C24BACC649253"
+			id: "2A91D96F0DC81068"
 			optional: true
 			rewards: [{
-				id: "7021A7413D938814"
+				id: "21913DB3FF556164"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			subtitle: "Modular furnaces!"
 			tasks: [
 				{
-					id: "154872CDC7976802"
+					id: "4F6C11EE92216296"
 					item: "ironfurnaces:augment_speed"
 					type: "item"
 				}
 				{
-					id: "29E0DC2E3B5B4A0F"
+					id: "256C783570152A27"
 					item: "ironfurnaces:augment_fuel"
 					type: "item"
 				}
 			]
 			title: "Furnace Augments"
-			x: 7.5d
-			y: 1.0d
+			x: 4.0d
+			y: 9.25d
 		}
 		{
-			dependencies: ["7865CDE5CFE005DC"]
+			dependencies: ["7A0FF904A754F57F"]
 			description: ["You can copy and paste settings from different &eFurnaces&r using a &6Furnace Setting Linker&r."]
-			id: "07508736CEE01C7F"
+			id: "359B893EC55BBC9F"
 			optional: true
 			rewards: [{
-				id: "7455123A87C45A7E"
+				id: "511F02033F0FCDE0"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			subtitle: "Copying your furnace's settings"
 			tasks: [{
-				id: "4FF735E089FC1BA8"
+				id: "2ABD3A989DA449A5"
 				item: "ironfurnaces:item_copy"
 				type: "item"
 			}]
 			title: "Ctrl + C, Ctrl + V"
-			x: 7.5d
-			y: 2.25d
+			x: 4.0d
+			y: 10.75d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: [
 				"This questbook is made to help you throughout your entire playthrough. &eIt is &lHIGHLY&r&e advised to read it!&r"
 				""
@@ -1361,22 +1231,24 @@
 				""
 				"When looking for a quest, try using Control/Command + F to search for a quest based on its name or tasks."
 			]
-			id: "09C8FE545131A402"
+			id: "133B31B88DC65834"
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
-				id: "7BC2DC471C278E85"
+				id: "1C4117728CBBA036"
 				type: "checkmark"
 			}]
 			title: "Quests Are Here to Help"
-			x: -1.0d
-			y: -4.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
+			dependencies: ["77A783FB35A327DC"]
 			description: ["Right click to select any biome, and the compass will lead you right to it!"]
-			id: "259CC99CE1FB22A9"
+			id: "2851F3198DA4D28C"
+			size: 1.25d
 			tasks: [{
-				id: "41C9DB62EB31D192"
+				id: "62394511C254DD2E"
 				item: {
 					Count: 1
 					id: "naturescompass:naturescompass"
@@ -1384,11 +1256,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.25d
+			x: 2.0d
+			y: -0.6d
 		}
 		{
-			dependencies: ["04A0863937695AC4"]
+			dependencies: ["42DB312E05F7A2FE"]
 			description: [
 				"&2GTm has GT6-style pipes and cables on by default. &rYou will need to use &6Wire Cutters&r to connect each side of a cable to machines or other cables. Placing it against the machine or cable automatically connects it as well. The same behaviour follows for GT pipes, whose tool is the &6Wrench&r."
 				""
@@ -1413,24 +1285,24 @@
 					HideFlags: 2
 				}
 			}
-			id: "29EE9A6425869E06"
+			id: "5CBB3083D1E65931"
+			size: 1.0d
 			tasks: [{
-				id: "6A56EBBA037B127B"
+				id: "4910EA312D3375E0"
 				type: "checkmark"
 			}]
 			title: "Connecting Pipes and Cables"
-			x: -8.0d
-			y: 1.0d
+			x: -3.5d
+			y: 13.5d
 		}
 		{
-			dependencies: ["115D2BEB18929C7C"]
+			dependencies: ["6CD4982E0F20E1B9"]
 			description: [
 				"Now that you have a &3Wiremill&f and a &2Bender&f, you can consider starting to do &eBounties&f. The &6Bounty Board&f has a global inventory containing quests to turn in specific items in exchange for &9Monicoins&f. These quests have a fairly short duration, so make sure to &estockpile the items&f that come up on them or else they'll &cexpire before you can complete them&f."
 				""
 				"With renewable &9Monicoins&f, you should feel free to spend the ones you have on whatever you need. &aSpend your coins!"
 			]
 			hide_dependency_lines: false
-			hide_until_deps_visible: true
 			id: "305016899AB301DB"
 			optional: true
 			rewards: [{
@@ -1438,6 +1310,7 @@
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
+			size: 1.25d
 			subtitle: "Money!"
 			tasks: [{
 				id: "3D51CACD19693E01"
@@ -1445,8 +1318,8 @@
 				type: "item"
 			}]
 			title: "&2Bounties For monicoins!"
-			x: 1.0d
-			y: -8.25d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7457A13C74667E40"]
@@ -1483,6 +1356,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.25d
 			tasks: [
 				{
 					id: "05DAD0D1076CC68D"
@@ -1512,12 +1387,18 @@
 				}
 			]
 			title: "&9Steam Grinder"
-			x: 3.0d
-			y: 6.0d
+			x: 2.56d
+			y: 14.375d
 		}
 		{
 			dependencies: ["7457A13C74667E40"]
-			description: ["The &6Steam Foundry&r functions as 8 &7LV &3Alloy Smelters&r in parallel! It requires an input of &9Steam&r through a &eSteam Hatch&r, but it uses very little Steam, perfect for bulk crafting alloys or mold recipes. It takes 240mb of &9Steam&r per tick to run."]
+			description: [
+				"&3Alloy Smelters&r are used to create alloys by melting and reforming items together."
+				""
+				"Now you won't need to grind up metals into dusts and mix them for alloy dusts! Plus, many of the more complex alloys you couldn't make that way are now possible."
+				""
+				"The &6Steam Foundry&r functions as 8 &7LV &3Alloy Smelters&r in parallel! It requires an input of &9Steam&r through a &eSteam Hatch&r, but it uses very little Steam, perfect for bulk crafting alloys or mold recipes. It takes 240mb of &9Steam&r per tick to run."
+			]
 			hide_until_deps_visible: true
 			icon: "steamadditions:steam_foundry"
 			id: "18F01BB67968C209"
@@ -1527,6 +1408,8 @@
 				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5688CFB416550651"
@@ -1562,13 +1445,18 @@
 				}
 			]
 			title: "&9Steam Foundry"
-			x: 1.5d
-			y: 6.0d
+			x: 0.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
-				"50591843C8501055"
 				"545E4D09C7F70864"
+				"349AB63A28FD95B2"
+				"6A50440BAF07367A"
+				"3412D62F98894D59"
+				"33C63AE101CE244F"
+				"7D59E5905949C396"
+				"571FE20AF5D8F124"
 			]
 			description: [
 				""
@@ -1576,6 +1464,8 @@
 			]
 			icon: "gtceu:bronze_large_boiler"
 			id: "7457A13C74667E40"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					id: "468B341AAEBA9017"
@@ -1626,18 +1516,16 @@
 					type: "item"
 				}
 			]
-			x: 2.25d
-			y: 4.75d
+			x: 0.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Any of these items will suck nearby items into your inventory."
+				"Either of these upgrades will suck nearby items into your backpack."
 				""
-				"The &6GregTech Magnet&r, &6Ender IO Electromagnet&r, and &6Thermal FluxoMagnet&r can all be placed in a &dCurio slot&r to save inventory space."
-				""
-				"The &6Advanced Magnet Upgrade&r and &6Thermal FluxoMagnet&r can be filtered, though the latter requires an &6Item Filter Augment&r applied in the &6Tinker's Workbench&r to do so."
+				"The &6Advanced Magnet Upgrade&r can be filtered."
 			]
 			id: "5F837186C7E82974"
 			rewards: [{
@@ -1646,6 +1534,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "052A0D37AB2E6DF7"
 				item: {
@@ -1653,14 +1542,6 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_item_magnet"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_item_magnet"
-							}
 							{
 								Count: 1b
 								id: "sophisticatedbackpacks:magnet_upgrade"
@@ -1676,14 +1557,13 @@
 				type: "item"
 			}]
 			title: "Magnet"
-			x: 1.0d
-			y: -0.25d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"77670BF761084AA2"
-				"12B95158E4C792DB"
-				"17312BF0197B87A8"
+				"59878F76EE175FA9"
+				"4CBC4C49065BD832"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -1702,17 +1582,17 @@
 			size: 2.5d
 			subtitle: "With all of the components made, it's time to craft an &2Electronic Circuit&r."
 			tasks: [{
-				count: 16L
+				count: 32L
 				id: "4A98F0E91E57B0EE"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
 			title: "Your First Circuit"
-			x: -1.0d
-			y: 8.75d
+			x: 0.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["3B200AD6EFF90DFA"]
+			dependencies: ["565CEB96B808827A"]
 			description: [
 				"&bGregtech&r adds a decent bit of extra crafting to the earlygame. Thankfully, &bEMI&r has some tools to help make your life &9&lMUCH&r easier when doing all this crafting."
 				""
@@ -1729,43 +1609,48 @@
 			disable_toast: true
 			icon: "quark:crafter"
 			id: "7A7B7CF403014757"
-			shape: "square"
-			size: 1.0d
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "Better than any crafting calculator."
 			tasks: [{
 				id: "2C35508BF5626EFD"
 				type: "checkmark"
 			}]
-			title: "&9Recipe Trees and Crafting Trees"
-			x: -2.0d
-			y: -1.25d
+			title: "&9Crafting Trees"
+			x: -1.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
 			id: "545E4D09C7F70864"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
-				count: 64L
+				count: 16L
 				id: "1D4C10100E775457"
-				item: { Count: 64, id: "gtceu:steel_dust" }
+				item: "gtceu:steel_dust"
 				type: "item"
 			}]
-			x: 1.25d
-			y: 3.5d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["2E8BFA2E719B1C47"]
+			dependencies: ["7F41F6FD59E77410"]
+			hide_dependency_lines: true
 			id: "0D37D05A6B66055F"
+			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				count: 32L
 				id: "6A6E5B6200412328"
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: -4.0d
+			y: 18.5d
 		}
 		{
-			dependencies: ["1229234A71CE0A99"]
+			dependencies: ["5CBB3083D1E65931"]
 			description: [
 				"For now, the best material to make these pipes out of is probably &6Tin&r."
 				""
@@ -1786,6 +1671,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			size: 1.0d
 			subtitle: "&2GT Item Pipes will transport items instantly through them and accept GT covers."
 			tasks: [{
 				icon: "gtceu:tin_normal_item_pipe"
@@ -1801,14 +1687,11 @@
 				type: "item"
 			}]
 			title: "&2GT Item Pipes"
-			x: -4.75d
-			y: 4.75d
+			x: -2.0d
+			y: 14.5d
 		}
 		{
-			dependencies: [
-				"1229234A71CE0A99"
-				"0FF18D13CD42F48A"
-			]
+			dependencies: ["5CBB3083D1E65931"]
 			description: [
 				"&2GT Fluid Pipes&r are quite powerful. Their advantage is high &9throughput&r and the ability to use &9GT covers&r, but they have limitations on the kinds of fluids (&eacids, gases&r, etc) they can transport safely. Check each pipe material's tooltip for details. Fluid pipes do require a pump to be able to pull fluids from tanks or machines that lack an auto-output function, but &2ULV pumps (as well as other covers) are very cheap, and buyable with Monicoins&r."
 				""
@@ -1823,6 +1706,7 @@
 				item: "ulvcovm:ulv_electric_pump"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				icon: "gtceu:potin_large_fluid_pipe"
 				id: "075779A039222C28"
@@ -1837,8 +1721,295 @@
 				type: "item"
 			}]
 			title: "&9GT Fluid Pipes"
-			x: -4.75d
-			y: 3.5d
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7F41F6FD59E77410"]
+			description: [
+				"&9With EMI, instead of showing you a separate recipe for every tool-resource combination, tools are instead grouped. You can use any tool from that group - for example, the &6#forge:tools/hammers &9group means that any &aHammer &9can be used there."
+				""
+				"First, make a &aHammer&f (not a &aMining Hammer&f, mind you… six ingots, not plates). Hammers can be used to turn &etwo ingots into one plate&f. &6Plates&f can make a &3File&f, Files can make &6Rods&f, etc. Use EMI to work your way down the list of tools."
+				""
+				"&6Wrought Iron&f is probably your best bet for a tool material right now, but better materials will become available as you progress."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:wrought_iron_wire_cutter"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 2
+						MaxDamage: 383
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "42DB312E05F7A2FE"
+			rewards: [{
+				count: 2
+				id: "7C9E8CE6C8E6B986"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0AE0FECE5532CB4E"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_hammer"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10BD2E9F4AA49387"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_file"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "599DE1EDF9D92F79"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_saw"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45A6A205EBB82CEE"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wrench"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D0C79D4B62B79B0"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A96A0A1CACD2155"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "375605C3C819ED6B"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Some Starter Tools"
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4C7D8693740B54C1"
+				"4CBC4C49065BD832"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"A \"&esubstrate&f\" is the \"board\" part of a circuit board — the backing that the circuit components and wires are laid into. A good substrate needs to not conduct electricity, for obvious reasons. &6Wood&r coated in &6Sticky Resin&r is a primitive but effective material to use as your first substrate."
+				""
+				"You'll also need to make &6Vacuum Tubes&f, as well as some primitive &6Resistors&r. &6Paper&r will work as a material for these, for now."
+			]
+			disable_toast: true
+			icon: "gtceu:resistor"
+			id: "59878F76EE175FA9"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "1695265D418BADFE"
+					item: { Count: 2, id: "gtceu:resistor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1787F8DFC35A6CED"
+					item: { Count: 2, id: "gtceu:vacuum_tube" }
+					type: "item"
+				}
+				{
+					id: "5D040485CE487A36"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "&2Electronic Components"
+			x: 2.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7457A13C74667E40"]
+			description: ["The &6Forge Hammer&r, despite being inefficient at making plates, can be used to break Cobblestone into Gravel and Gravel into Sand. It's also used to combine 2 Rods into 1 Long Rod."]
+			id: "1246B98A6B968BAC"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "7119A3718D22B72A"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 3.125d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7457A13C74667E40"]
+			description: [
+				"&2Careful: This is not a Bender."
+				""
+				"However, this machine will still see use for compressing &eNuggets&r into&e Ingots&r, &eIngots&r into &eBlocks&r, &eGem Dusts&r into &ePlates&r (such as &6Certus Quartz&r), as well as various other useful recipes."
+			]
+			id: "484A52DFABC9547E"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2D4C93801692331E"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["64ABEB1EF9F81EA4"]
+			description: ["You might want to save your &6Coal Dust&r for circuits and use &6Charcoal Dust&r instead. Later, you can also process either &6Coal Coke Dust&r or &2Diamond Dust&r into &6Carbon Dust&r, which can be used for other alloys."]
+			hide_until_deps_visible: true
+			id: "5301E546BAA69844"
+			optional: true
+			shape: "hexagon"
+			subtitle: "You already have &6Steel&r, but it can be made faster in the &3Alloy Smelter&r, at the cost of EU."
+			tasks: [{
+				id: "17210F38B40BAAD7"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "&9Alloying Steel"
+			x: 5.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7457A13C74667E40"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9Sneak-right-click a Multiblock controller with a terminal to have it automatically pull blocks from your inventory to build the multiblock."
+				""
+				"It is important to note that if you do not have the required hatches, the Terminal will leave holes for those hatches, leaving the multiblock unformed."
+			]
+			disable_toast: true
+			icon: "gtceu:terminal"
+			id: "5D05C9E09637231C"
+			rewards: [{
+				id: "6542896D57F56AB1"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3A3A1267DC7F6CAD"
+				title: "Terminal"
+				type: "checkmark"
+			}]
+			title: "&9Terminal"
+			x: 2.56d
+			y: 15.625d
+		}
+		{
+			dependencies: ["7F41F6FD59E77410"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2Certain multiblocks in GTm will require a Maintenance Hatch and/or Muffler Hatch. &cThese cannot be shared between multiblocks. &2If you knew Maintenance in GT5u, fret not - Maintenance mechanics are far less punishing in GTm."
+				""
+				"&r- &aMuffler&r: This hatch must be &cunobstructed&r so it can output its beautiful smoke particles. When a recipe is performed, there is a small chance for the &3Muffler Hatch&r to give bonus items, typically tiny Dusts of Ash. It voids excess when full, so do not worry about it stopping machines from running."
+				"{@pagebreak}"
+				"- &aMaintenance&r: You will need to do Maintenance for the Multiblock to begin operating. This is done by having a &9Wrench&r, a &9Screwdriver&r, a &9Soft Mallet&r, a &9Hammer&r, a &9Wire Cutter&r, and a &9Crowbar&r in your inventory, opening the Maintenance Hatch and &eclicking the center spot once&r. &cNo need to move tools individually&r. Alternatively, you can fix problems by placing &bGregtech&r &9Tape&r in the Maintenance Hatch. "
+				""
+				"Maintenance problems may occur after &948 real hours of activity&r. Needless to say, they are very rare. Each problem increases recipe durations by 10%%. Fixing the problems is done the same way as above."
+				"{@pagebreak}"
+				"Later, you will unlock other Maintenance Hatches that do not enforce fixing the problems manually. Both start with &6no Maintenance required&r:"
+				""
+				"- &3Automatic Maintenance Hatch&r (&6HV&r): Eliminates the need for Maintenance, &6forever&r."
+				""
+				"- &3Cleaning Maintenance Hatch&r (&9IV&r): Functions as an &3Automatic Maintenance Hatch&r, and allows the multiblock to perform recipes that would otherwise need be performed in a &2Cleanroom&r."
+				""
+				"- &3Sterile Cleaning Maintenance Hatch&r (&cZPM&r): Functions as an &3Automatic Maintenance Hatch&r, and allows the multiblock to perform recipes that require &aSterilization&r."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:maintenance_hatch"
+			id: "6A50440BAF07367A"
+			size: 1.0d
+			tasks: [{
+				id: "170CD6CB33F26797"
+				type: "checkmark"
+			}]
+			title: "&2Maintenance and Muffler Mechanics"
+			x: 2.25d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"67690A0E04224141"
+				"7A7B7CF403014757"
+			]
+			id: "5BBF1938168F115D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4976FEF43D4F8D8A"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	title: "Steam"

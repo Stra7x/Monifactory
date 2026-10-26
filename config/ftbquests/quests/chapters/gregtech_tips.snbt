@@ -6,7 +6,13 @@
 	icon: "gtceu:machine_controller_cover"
 	id: "2CC78B1B195CC550"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "7DBAA4D913BF72B7"
+		linked_quest: "42DB312E05F7A2FE"
+		shape: "diamond"
+		x: 2.25d
+		y: -7.5d
+	}]
 	quests: [
 		{
 			dependencies: ["604CCBE824D03A74"]
@@ -96,130 +102,6 @@
 			title: "&9Machine Covers"
 			x: 0.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["2E8BFA2E719B1C47"]
-			description: [
-				"&9With EMI, instead of showing you a separate recipe for every tool-resource combination, tools are instead grouped. You can use any tool from that group - for example, the &6#forge:tools/hammers &9group means that any &aHammer &9can be used there."
-				""
-				"First, make a &aHammer&f (not a &aMining Hammer&f, mind you… six ingots, not plates). Hammers can be used to turn &etwo ingots into one plate&f. &6Plates&f can make a &3File&f, Files can make &6Rods&f, etc. Use EMI to work your way down the list of tools."
-				""
-				"&6Wrought Iron&f is probably your best bet for a tool material right now, but better materials will become available as you progress."
-			]
-			icon: {
-				Count: 1
-				id: "gtceu:wrought_iron_wire_cutter"
-				tag: {
-					Damage: 0
-					DisallowContainerItem: 0b
-					GT.Behaviours: { }
-					GT.Tool: {
-						DefaultEnchantments: [ ]
-						HarvestLevel: 2
-						MaxDamage: 383
-						ToolSpeed: 6.0f
-					}
-					HideFlags: 2
-				}
-			}
-			id: "42DB312E05F7A2FE"
-			rewards: [{
-				count: 2
-				id: "7C9E8CE6C8E6B986"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [
-				{
-					id: "0AE0FECE5532CB4E"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_hammer"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "10BD2E9F4AA49387"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_file"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "599DE1EDF9D92F79"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_saw"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "45A6A205EBB82CEE"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_wrench"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3D0C79D4B62B79B0"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_screwdriver"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A96A0A1CACD2155"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_wire_cutter"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "375605C3C819ED6B"
-					item: {
-						Count: 1
-						id: "gtceu:wrought_iron_mortar"
-						tag: {
-							Damage: 0
-							GT.Tool: { }
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Some Starter Tools"
-			x: 3.75d
-			y: -8.625d
 		}
 		{
 			description: ["&9Pressing the second tab in any given machine's GUI will open up a view showing the machine and any blocks it is touching.&r From there, you can click on a side of the machine and easily add, edit and remove &acovers&r, and configure if the machine should &3automatically output&r and which side it should output to. "]

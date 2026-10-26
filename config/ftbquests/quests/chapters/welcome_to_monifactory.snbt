@@ -46,14 +46,14 @@
 				"If you don't want to go exploring for Cows, just buy a pair of &6Cow Spawn Eggs&r eggs and breed them. Seriously, spend your &9coins&f!"
 			]
 			hide_dependency_lines: true
-			id: "7C3B69B3DC09FE96"
+			id: "7678142FF454B3E6"
 			rewards: [{
-				id: "73A54AAACBD32969"
+				id: "1A754DF94C4A2C92"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7B4500A4503F2F6D"
+				id: "3D026AE1F08C2BB2"
 				item: {
 					Count: 1
 					id: "hangglider:hang_glider"
@@ -68,7 +68,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"If your server admin allows it, you can use JourneyMap to create and teleport to waypoints you set. You can access JourneyMap waypoints by hitting the N key by default. Use this feature to gather resources quickly."
 				""
@@ -79,11 +78,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:blue_bed"
-			id: "33195ED6D7008E5F"
+			id: "178F82DA8BD8009D"
 			optional: true
 			subtitle: "Make returning home easy!"
 			tasks: [{
-				id: "1FE7AB8BD6D25B47"
+				id: "3C78499733C719EB"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
@@ -92,16 +91,15 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: ["[\"\",{\"text\":\"This pack has \"},{\"color\":\"aqua\",\"text\":\"Inventory Tweaks\"},{\"text\":\", allowing for quick, customizable, and easy sorting of any inventory! The default keybind is \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"\\\\\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Sort Player Inventory\\\" in keybind option\"}}},{\"text\":\".\"}]"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:chest"
-			id: "0DE9B264A3BA75BB"
+			id: "2A5E7BD1FD0C00D6"
 			optional: true
 			subtitle: "Clean your inventory"
 			tasks: [{
-				id: "6EF2221B59F470CB"
+				id: "1D8A6D6C21A38E28"
 				type: "checkmark"
 			}]
 			title: "Inventory Sorting"
@@ -110,7 +108,6 @@
 		}
 		{
 			can_repeat: false
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"You may wish to &aautomatically sprint&r instead of having to press &eControl + W&r or &eW twice&r."
 				""
@@ -129,16 +126,16 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "rehooked:wood_hook"
-			id: "372BE3F076893D71"
+			id: "0B6758DB2501F07C"
 			min_width: 300
 			rewards: [{
-				id: "3A1EB6268A778123"
+				id: "3207CF4F219FEBF8"
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "&oFaster is better!"
 			tasks: [{
-				id: "2FDEDCA3D120121B"
+				id: "77A2EBCD2E775463"
 				item: "rehooked:wood_hook"
 				type: "item"
 			}]
@@ -147,7 +144,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"[\"\",{\"text\":\"Take a peek at the \"},{\"color\":\"yellow\",\"underlined\":true,\"text\":\"Elements and Alloys quest book tab\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"25FEB9E61EEC1A96\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Click to go to the chapter\"}}},{\"text\":\". This might seem a bit premature to suggest, but it has a reason.\"}]"
 				""
@@ -157,9 +153,9 @@
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:omnium_ingot"
-			id: "0C173EF148EFEF8E"
+			id: "6790C9469CE0A36C"
 			tasks: [{
-				id: "647D560D77DBCEA5"
+				id: "46AACBE61E3BC142"
 				type: "checkmark"
 			}]
 			title: "Elements and Alloys"
@@ -167,7 +163,6 @@
 			y: -7.75d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"[\"\",{\"color\":\"dark_green\",\"underlined\":true,\"text\":\"This tab\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"055C0B43FE14258F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Click to go to the chapter\"}}},{\"color\":\"dark_green\",\"text\":\" was added to provide some examples on how to renewably produce useful resources through unconventional means. Use it wisely!\"}]"
 				""
@@ -176,10 +171,10 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "gtceu:mv_chemical_bath"
-			id: "73C713703AB6387C"
+			id: "78B8CFA33882297E"
 			optional: true
 			tasks: [{
-				id: "4BEDF2126C896A50"
+				id: "2B6BE8ECAC46BDE4"
 				type: "checkmark"
 			}]
 			title: "&2Renewable Production Tab"
@@ -187,7 +182,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"[\"\",{\"text\":\"The \"},{\"color\":\"yellow\",\"underlined\":true,\"text\":\"Progression tab\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"395B849AC6294153\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Click to go to the chapter\"}}},{\"text\":\" was added so you can keep track of the important bits of the pack.\"}]"
 				""
@@ -196,10 +190,10 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "gtceu:quantum_processor"
-			id: "400AD2B735FF135D"
+			id: "71F8CD120E9D838A"
 			optional: true
 			tasks: [{
-				id: "3378D5EF8B48960E"
+				id: "6BD84B04869299FE"
 				type: "checkmark"
 			}]
 			title: "Progression Tab"
@@ -207,7 +201,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["66FCC26399376B55"]
 			description: [
 				"Open your inventory and look at the top-left corner of the screen. Click the map-looking icon called &eClaim Manager&r."
 				""
@@ -220,11 +213,11 @@
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:tnt"
-			id: "6A7A480FAC6103D2"
+			id: "15EC80D8E5D28E0A"
 			optional: true
 			subtitle: "You might be wondering what chunkloading options there are in the pack."
 			tasks: [{
-				id: "78BC5B51125B35BD"
+				id: "0DC00EF078365476"
 				title: "Claim your chunks!"
 				type: "checkmark"
 			}]
