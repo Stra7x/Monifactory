@@ -144,6 +144,7 @@
 			]
 			id: "34876F54406B6A04"
 			progression_mode: "flexible"
+			size: 1.75d
 			tasks: [{
 				id: "1433B9815BA2C6F1"
 				item: "gtceu:lv_steam_turbine"

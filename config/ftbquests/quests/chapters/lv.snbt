@@ -13,8 +13,8 @@
 			image: "monifactory:textures/quests/github_invertocat_white.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.75d
-			y: -15.75d
+			x: -17.0d
+			y: 5.75d
 		}
 		{
 			click: "https://discord.gg/4jch9Rs2Cq"
@@ -23,39 +23,22 @@
 			image: "monifactory:textures/quests/discord-symbol-white.png"
 			rotation: 0.0d
 			width: 1.32d
-			x: 1.75d
-			y: -15.75d
+			x: -17.0d
+			y: 2.25d
 		}
 	]
 	order_index: 1
-	quest_links: [
-		{
-			id: "6EFDF0495132F8EC"
-			linked_quest: "715BC5C7DAC53B7B"
-			shape: "hexagon"
-			size: 2.0d
-			x: 15.0d
-			y: -9.125d
-		}
-		{
-			id: "30E5F898D55B37A7"
-			linked_quest: "491180694DA10086"
-			shape: "hexagon"
-			size: 2.0d
-			x: 11.875d
-			y: -6.0625d
-		}
-		{
-			id: "1C5CEAA15B04F2FA"
-			linked_quest: "34876F54406B6A04"
-			shape: "hexagon"
-			size: 1.5d
-			x: -12.0d
-			y: 4.0d
-		}
-	]
+	quest_links: [{
+		id: "1C5CEAA15B04F2FA"
+		linked_quest: "34876F54406B6A04"
+		shape: "hexagon"
+		size: 1.5d
+		x: -15.0d
+		y: 4.0d
+	}]
 	quests: [
 		{
+			dependencies: ["6AE36CD4F39DAB08"]
 			description: [
 				"&2Circuit recipes are handled through a separate machine, the Circuit Assembler. They are two entirely separate machines, despite their similar name!&r"
 				""
@@ -73,7 +56,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			subtitle: "Assembler 1"
 			tasks: [{
 				id: "4FEE8532736A49E2"
@@ -81,8 +64,8 @@
 				type: "item"
 			}]
 			title: "&2LV Assembler"
-			x: 9.0d
-			y: 4.125d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1C30B0E57E195FD7"]
@@ -99,68 +82,15 @@
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "05CB7EE672B034D4"
 				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
 			title: "&9Compacting Drawers"
-			x: -21.75d
-			y: 11.6875d
-		}
-		{
-			description: [
-				"&6Pulsating Dust&r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange (and potentially dangerous) applications, including the ability to make &6Pulsating Iron&r and &6Ender Pearls&r."
-				""
-				"Your first source of Pulsating Dust is &6Uraninite&r, which you can get from &6Uraninite Ore&r. Later on, you'll be able to produce Pulsating Dust by smelting &6Resonant Clathrates&r."
-			]
-			icon: "kubejs:pulsating_dust"
-			id: "30EBD4E7BBFFEF2C"
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [
-				{
-					id: "771429E0BF88C060"
-					item: "kubejs:pulsating_dust"
-					type: "item"
-				}
-				{
-					id: "7CD88A0039FEDB93"
-					item: "gtceu:uraninite_dust"
-					type: "item"
-				}
-			]
-			title: "Pulsating Dust"
-			x: 14.75d
-			y: -12.625d
-		}
-		{
-			dependencies: [
-				"30EBD4E7BBFFEF2C"
-				"18F01BB67968C209"
-			]
-			description: ["If you can't find one otherwise, &6Ender Pearls&r can be crafted using Pulsating Dust and a &6Diamond&r in an &3Alloy Smelter&r."]
-			icon: "gtceu:pulsating_alloy_ingot"
-			id: "273F3F8DD6A3DCC5"
-			shape: "hexagon"
-			size: 1.25d
-			subtitle: "A mysterious alloy, made from &6Pulsating Dust&r and &6Iron&r."
-			tasks: [
-				{
-					id: "22A4BABD40C1A481"
-					item: "gtceu:pulsating_alloy_ingot"
-					type: "item"
-				}
-				{
-					id: "1D2D8CC9B069A59B"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
-			title: "Pulsating Iron and Ender Pearls"
-			x: 12.25d
-			y: -12.625d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -181,6 +111,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.75d
 			subtitle: "Copper… Nickel… Cupronickel?"
 			tasks: [
 				{
@@ -195,8 +126,8 @@
 				}
 			]
 			title: "Cupronickel and Invar"
-			x: 15.0d
-			y: -3.0d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["025543EDB0A4AC22"]
@@ -224,64 +155,8 @@
 				type: "item"
 			}]
 			title: "&9Infiniter Water"
-			x: 2.5d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"30EBD4E7BBFFEF2C"
-				"5BE3E37772FAF6CB"
-			]
-			description: [
-				"&6&6String&r and &6Coal Dust&r can be baked together into &6Carbon Fiber Mesh&r in an &3Alloy Smelter&r."
-				""
-				"Combine that with &6Pulsating Dust&r to get &6Pulsating Mesh&r."
-			]
-			hide_until_deps_visible: true
-			icon: "kubejs:pulsating_mesh"
-			id: "645B1DCB3DA7198A"
-			optional: true
-			rewards: [{
-				id: "2D12B468C7630D14"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [
-				{
-					id: "3FB8F2F8B1867430"
-					item: "kubejs:pulsating_mesh"
-					type: "item"
-				}
-				{
-					id: "6684545526C4AD44"
-					item: "gtceu:carbon_fiber_mesh"
-					type: "item"
-				}
-			]
-			title: "Pulsating Mesh"
-			x: 15.0d
-			y: -11.125d
-		}
-		{
-			dependencies: [
-				"74B5CA5A48CE7B39"
-				"18F01BB67968C209"
-				"4A5CC6210FCEC075"
-			]
-			description: ["&6Dark Steel&r is made by alloying &6Obsidian&r and &6Steel&r together in an &3Alloy Smelter&r. Later, in &bMV&r, you can use &6Void Crystal&r instead of Obsidian."]
-			id: "3BD20358F137E7C6"
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "6C0D6663D13E8C74"
-				item: "gtceu:dark_steel_ingot"
-				type: "item"
-			}]
-			title: "Dark Steel"
-			x: 12.0d
-			y: -9.125d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -306,63 +181,8 @@
 				item: "gtceu:electrical_steel_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["4A5CC6210FCEC075"]
-			description: [
-				"You'll need &6Obsidian&r to make &6Dark Steel&r. Most of the tools you can make cannot mine Obsidian, but you do have a few potential options for ones that will work. The options you're most likely to have access to at this point are:"
-				""
-				"1) A &aDiamond Pickaxe&r or &aDiamond Mining Hammer&r."
-				""
-				"2) A &aSteel Pickaxe&r."
-				""
-				"Later, you can use a &3Rock Breaker&r at voltage &aHV&r or higher to make &6Obsidian&r without spending &6Lava&r!"
-			]
-			id: "74B5CA5A48CE7B39"
-			rewards: [{
-				id: "0BF9F19C54FA7B41"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "08959EE1440564D6"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -8.125d
-		}
-		{
-			dependencies: ["3BD20358F137E7C6"]
-			description: [
-				"The main purpose for this device is to turn &6Certus Quartz&r into &6Charged Certus Quartz&r."
-				""
-				"This device can be powered with RF via energy cards or AE energy from a network via cables."
-				""
-				"It accepts power from &9five&r sides. Which &9five&r sides? It's pretty easy to guess."
-				""
-				"You can also easily automate charging by having hoppers input items from the top or sides, and pull items from the bottom."
-			]
-			icon: "ae2:charger"
-			id: "6D03BB4A6A4BBA27"
-			rewards: [{
-				id: "4450EEE7F4D93EF0"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "39AA9BBDCACBC109"
-				item: "ae2:charger"
-				type: "item"
-			}]
-			title: "Charging Quartz"
-			x: 11.875d
-			y: -7.8125d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["025543EDB0A4AC22"]
@@ -385,8 +205,8 @@
 				type: "item"
 			}]
 			title: "Basic Capacitors"
-			x: 2.0d
-			y: 8.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6AE36CD4F39DAB08"]
@@ -403,7 +223,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "7AE6F9DF96ADD8D2"
 				item: {
@@ -430,8 +250,8 @@
 				type: "item"
 			}]
 			title: "Electrolyzer"
-			x: 5.0d
-			y: 8.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5B0200011DF8E1B6"]
@@ -448,6 +268,7 @@
 				""
 				"Right now, for the small quantities you need, you can simply electrolyze &9Water&r. Just keep those other ways in mind, for later in the game."
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:oxygen_bucket"
 			id: "6FE99EDDC6223F2E"
 			rewards: [{
@@ -456,7 +277,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [
 				{
 					id: "47392B270D61CD4C"
@@ -478,7 +299,7 @@
 			]
 			title: "Hydrogen and Oxygen"
 			x: 9.0d
-			y: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -500,15 +321,15 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "2EB8F8C2ABFD2637"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
 			title: "&2Cupronickel Coils"
-			x: 15.0d
-			y: 0.0d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -525,6 +346,7 @@
 				""
 				"&2You can cut the smelting time of Aluminium and some other smelting processes by a third with Nitrogen gas. Higher-tier processes may take different gases."
 			]
+			hide_until_deps_visible: true
 			id: "3AB0402B19DD5BA8"
 			min_required_dependencies: 2
 			rewards: [{
@@ -533,7 +355,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.5d
 			tasks: [{
 				count: 128L
 				id: "76883573CA1B54F4"
@@ -541,11 +363,14 @@
 				type: "item"
 			}]
 			title: "&2Aluminium Ingots"
-			x: 19.0d
-			y: 0.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4CD6C60CBEFFA317"]
+			dependencies: [
+				"4CD6C60CBEFFA317"
+				"73367C96509E8777"
+			]
 			description: [
 				"The &3Electric Blast Furnace&r is a major, major milestone in your &bGregTech&r career. It has the power to smelt more advanced materials. The first of these, &6Aluminium&r, is going to be important in the immediate future."
 				""
@@ -572,7 +397,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [
 				{
 					id: "0E093ED43F2B2E14"
@@ -631,8 +456,8 @@
 				}
 			]
 			title: "&2Blast Furnace Fun"
-			x: 17.0d
-			y: 0.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6AE36CD4F39DAB08"]
@@ -650,39 +475,20 @@
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			subtitle: "Will it blend?"
 			tasks: [{
 				id: "0199D55D895EDDC9"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_mixer"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_mixer"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_mixer"
-							}
-						]
-					}
-				}
-				title: "LV, MV, or HV Mixer"
+				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
 			title: "LV Mixer"
 			x: 9.0d
-			y: 0.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["760DEF8FFAD6E20A"]
 			description: [
 				"&9GregTech Power&r can be tricky to handle. Luckily, there are several tools you can use to tackle some of the problems."
 				""
@@ -695,14 +501,14 @@
 			]
 			icon: "gtceu:mv_transformer_1a"
 			id: "18D8D18C4494C587"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "14E359BEBFB23558"
 				type: "checkmark"
 			}]
 			title: "&2GT Power Management"
-			x: -21.75d
-			y: 2.8125d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -721,7 +527,7 @@
 				"All &bGregTech&r Filters can be configured using ghost items from &bEMI&r."
 			]
 			id: "5F6B13DBCABA5078"
-			size: 1.5d
+			size: 1.25d
 			tasks: [
 				{
 					id: "0F35F2EAFC2DF767"
@@ -745,8 +551,8 @@
 				}
 			]
 			title: "&2Filters"
-			x: -21.75d
-			y: 4.6875d
+			x: 3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4CD6C60CBEFFA317"]
@@ -769,7 +575,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [
 				{
 					id: "50E21C8C3D4281DD"
@@ -827,8 +633,8 @@
 				}
 			]
 			title: "&2Pyrolyse Oven"
-			x: 15.0d
-			y: 2.5d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -844,7 +650,7 @@
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			size: 1.5d
+			size: 1.25d
 			subtitle: "…and crops as well, I guess."
 			tasks: [{
 				id: "4ED486548C376854"
@@ -852,13 +658,14 @@
 				type: "item"
 			}]
 			title: "&9Infinite Wood"
-			x: -21.75d
-			y: 8.1875d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3AB0402B19DD5BA8"]
 			description: ["Bigger barrels."]
 			id: "3E4DEA4FFD019AB9"
+			size: 1.25d
 			tasks: [{
 				id: "4355F32860B92456"
 				item: {
@@ -880,8 +687,8 @@
 				type: "item"
 			}]
 			title: "&9Upgrades, people, upgrades."
-			x: 20.5d
-			y: 0.0d
+			x: 13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2EDDD14D2FE288CE"]
@@ -905,152 +712,11 @@
 				type: "item"
 			}]
 			title: "Magnet"
-			x: 4.5d
-			y: -4.0d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
-			description: [
-				"To mute a Gregtech machine, right-click it with a &6Hammer&r. (Not the Mining kind!)"
-				""
-				"For other sounds, there is a button in the &etop-left&r of your inventory that looks like a speaker. Clicking it brings you to the &bExtreme Sound Muffler&r menu."
-				""
-				"In this menu you can &eattenuate the volume of sounds that were recently played&r, or set an \"Anchor\" to reduce the volume of sounds in that area - most of the controls in this menu have a tooltip to tell you what they do."
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "gtceu:textures/gui/overlay/tool_sound.png"
-				}
-			}
-			id: "5B52FFEBF5D65C20"
-			size: 1.5d
-			subtitle: "My poor ears!"
-			tasks: [{
-				id: "2D68D336FAC66CCE"
-				type: "checkmark"
-			}]
-			title: "&9Muting and Muffling"
-			x: -21.75d
-			y: 9.9375d
-		}
-		{
-			description: [
-				"A &aSoft Mallet&f can be used to temporarily stop a machine from functioning. While &9this can also be done by pressing the pause button within the machine's GUI&r, the Soft Mallet allows you to quickly turn machines on and off without entering their GUI. &2In either case, please note that the machine will only stop after it finishes its current recipe.&r This can be helpful if you are low on power, but is mostly useful when you need to upgrade a multiblock (more on those later)."
-				""
-				"Although you can make it out of &6Wood&r, it is probably better to make it out of &6Rubber&r now that you can."
-			]
-			icon: {
-				Count: 1
-				id: "gtceu:rubber_mallet"
-				tag: {
-					Damage: 0
-					GT.Behaviours: { }
-					GT.Tool: {
-						AttackDamage: 0.0f
-						AttackSpeed: -2.4f
-						DefaultEnchantments: [ ]
-						MaxDamage: 128
-					}
-				}
-			}
-			id: "7EA737163230F984"
-			rewards: [{
-				id: "56897FB11AB023CB"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			size: 1.5d
-			subtitle: "Bonk!"
-			tasks: [{
-				id: "56A2D430950E2112"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:wood_mallet"
-								tag: {
-									Damage: 0
-									DisallowContainerItem: 0b
-									GT.Behaviours: { }
-									GT.Tool: {
-										AttackDamage: 0.0f
-										AttackSpeed: -2.4f
-										MaxDamage: 127
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:rubber_mallet"
-								tag: {
-									Damage: 0
-									DisallowContainerItem: 0b
-									GT.Behaviours: { }
-									GT.Tool: {
-										MaxDamage: 127
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:polytetrafluoroethylene_mallet"
-								tag: {
-									Damage: 0
-									DisallowContainerItem: 0b
-									GT.Behaviours: { }
-									GT.Tool: {
-										MaxDamage: 127
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:polyethylene_mallet"
-								tag: {
-									Damage: 0
-									DisallowContainerItem: 0b
-									GT.Behaviours: { }
-									GT.Tool: {
-										AttackDamage: 0.0f
-										AttackSpeed: -2.4f
-										MaxDamage: 127
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:polybenzimidazole_mallet"
-								tag: {
-									Damage: 0
-									DisallowContainerItem: 0b
-									GT.Behaviours: { }
-									GT.Tool: {
-										AttackDamage: 0.0f
-										AttackSpeed: -2.4f
-										MaxDamage: 127
-									}
-									HideFlags: 2
-								}
-							}
-						]
-					}
-				}
-				title: "Any Soft Mallet"
-				type: "item"
-			}]
-			title: "&9Soft Mallet"
-			x: -19.75d
-			y: 4.6875d
-		}
-		{
+			dependencies: ["2EDDD14D2FE288CE"]
 			description: ["&9Exoskeletons&r increase your movement speed, letting you get around your factory even quicker."]
 			icon: "gtexolegs:lv_exoskeleton_legs"
 			id: "6BA0B1B3AB853F9A"
@@ -1059,7 +725,8 @@
 				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "diamond"
+			size: 1.25d
 			subtitle: "Make it quick!"
 			tasks: [{
 				id: "53DCEF454DF9FFFD"
@@ -1095,70 +762,32 @@
 				type: "item"
 			}]
 			title: "&9Exoskeletons"
-			x: -19.75d
-			y: 2.8125d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"261D2F3B1F2162D0"
 				"1D4B663AD87CA3C1"
+				"5B0200011DF8E1B6"
 			]
 			description: ["&2With LV power, you can only get Aluminium Dust from electrolyzing Clay Dust, Sapphire Dust or Green Sapphire Dust. Clay Dust is recommended. Once you make an MV Electrolyzer, you can get it from a plethora of other raw resources.&r"]
 			hide_until_deps_visible: true
 			id: "7A7907EE1F3FCFBF"
 			optional: true
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "56F724D844E3577A"
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
 			title: "Aluminium Dust (NM)"
-			x: 19.0d
-			y: 3.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3BD20358F137E7C6"
-				"273F3F8DD6A3DCC5"
-			]
-			description: [
-				"Holding one of these reveals &aTravel Anchors&r in range."
-				""
-				"Right-click after aiming to warp to one, or point it anywhere and shift+right-click to teleport forward a short distance (works through walls)."
-				""
-				"These are powered with RF, and can be further enchanted through &bEnder IO&r's enchanting mechanics."
-				""
-				"The &6Pulsating Crystal&r will require an &3Autoclave&r."
-			]
-			id: "3D6BC54DBE665638"
-			rewards: [{
-				id: "096D97D7F08241D4"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "7187745E3D3C66B6"
-				item: {
-					Count: 1
-					id: "enderio:staff_of_travelling"
-					tag: {
-						Energy: {
-							EnergyStored: 100000
-							MaxEnergyStored: 100000
-							MaxEnergyUse: 100000
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 12.0d
-			y: -10.625d
-		}
-		{
+			dependencies: ["3FD0096C723B00D7"]
 			description: [
 				"&eSuperconductor wires won't kill you when touched. In fact, you have to use Wires for Superconductors, because they don't even have cables!"
 				""
@@ -1170,12 +799,6 @@
 				"MV - Energetic Alloy"
 				"HV - Vibrant Alloy"
 				"EV - End Steel"
-				"IV - Lumium "
-				"LuV - Signalum "
-				"ZPM - Enderium "
-				"UV - Cryolobus "
-				"UHV - Sculk Superconductor"
-				"UEV - Hyperdegenerate Darconite"
 				"MAX - Monium"
 				""
 				"&2There are an additional set of superconductors, one for each tier, which are the GTm default superconductors. Their advantage is their higher amperage rating, reaching the hundreds of amps for higher tier 16x wires. They are also used in crafting Field Generators. They are:"
@@ -1193,17 +816,20 @@
 			]
 			icon: "gtceu:energetic_alloy_octal_wire"
 			id: "2861BA7C235C52A3"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "7A50024966E38151"
 				type: "checkmark"
 			}]
 			title: "&2Lossless Cables"
-			x: -19.5d
-			y: -3.25d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1BC6DDC2D50F9C46"]
+			dependencies: [
+				"1BC6DDC2D50F9C46"
+				"0D6C8FFD01BE5C21"
+			]
 			description: [
 				"A machine's &amaximum recipe tier&r determines what recipes it can run. Under normal circumstances, the maximum recipe tier of a machine is equivalent to the machine tier for singleblock machines, or the tier of the energy hatch for multiblock machines."
 				""
@@ -1228,46 +854,15 @@
 				type: "checkmark"
 			}]
 			title: "Recipe Tiers and Over-tiering"
-			x: 17.0d
-			y: -3.0d
+			x: 11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
-				"3BD20358F137E7C6"
-				"5BE3E37772FAF6CB"
+				"5C4E189A3E401566"
+				"1BC6DDC2D50F9C46"
+				"0D6C8FFD01BE5C21"
 			]
-			description: [
-				"Once you have obtained your first pieces of &6Dark Steel&r, travel to the &bNether&r becomes available."
-				""
-				"The &eNether&r contains quite a few useful resources:"
-				"- Some initial pieces of &6Sulfur&r"
-				"- &6Glowstone&r and &6Soul Sand&r"
-				"- &6Fluorine&r, &6Certus Quartz&r, &6Molybdenum&r, &6Antimony&r, and &6Gold&r-bearing ores"
-				"- &2Nether Air&r, which can be distilled for useful gases"
-				"- &eLava&r and &eNatural Gas&r from &2Fluid Rigs&r"
-				""
-				"In Normal Mode, &eNether&r travel is still strictly optional in the pack, although it is recommended."
-			]
-			hide_until_deps_visible: true
-			id: "7A67E519745A8361"
-			optional: true
-			rewards: [{
-				id: "5E252CA9C37789FE"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "0E87A07E1757F58F"
-				item: "telepastries:nether_cake"
-				type: "item"
-			}]
-			x: 10.25d
-			y: -10.625d
-		}
-		{
-			dependencies: ["5C4E189A3E401566"]
 			description: [
 				"When a machine is operating at a higher recipe tier than what is required for running the current recipe, it will &aoverclock&r (&aOC&r) the recipe. Each overclock on a recipe will halve its duration but quadruple the rate of energy consumption. For example, a 30 EU/t recipe running in an &bMV&r machine will run at double speed but require 120EU/t."
 				""
@@ -1279,14 +874,15 @@
 			]
 			icon: "minecraft:clock"
 			id: "31AE366B15538079"
+			size: 1.25d
 			subtitle: "Not to be confused with over-tiering"
 			tasks: [{
 				id: "2C6BF4196CE9468F"
 				type: "checkmark"
 			}]
 			title: "Overclocking"
-			x: -19.3125d
-			y: -1.25d
+			x: 10.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1303,8 +899,8 @@
 				type: "checkmark"
 			}]
 			title: "Sulfuric Ore Pyrometallurgy"
-			x: -23.75d
-			y: 9.8125d
+			x: -2.5d
+			y: 11.875d
 		}
 		{
 			dependencies: [
@@ -1325,7 +921,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				count: 4L
 				id: "3D101C5A37D60C7B"
@@ -1353,7 +949,7 @@
 				type: "item"
 			}]
 			title: "LV Power Storage"
-			x: -8.0d
+			x: -11.0d
 			y: 4.0d
 		}
 		{
@@ -1371,7 +967,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "66AA5196AB4CE480"
 				item: {
@@ -1397,7 +993,7 @@
 				type: "item"
 			}]
 			title: "Battery Buffers"
-			x: -6.0d
+			x: -9.0d
 			y: 4.0d
 		}
 		{
@@ -1454,8 +1050,8 @@
 				type: "item"
 			}]
 			title: "GregTech Electric Tools"
-			x: 5.0d
-			y: -4.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6AE36CD4F39DAB08"]
@@ -1481,8 +1077,8 @@
 				type: "item"
 			}]
 			title: "&9Charging Items"
-			x: 5.0d
-			y: -2.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2EDDD14D2FE288CE"]
@@ -1508,8 +1104,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["34876F54406B6A04"]
@@ -1527,13 +1123,13 @@
 			icon: "gtceu:hpic_wafer"
 			id: "46475B351ED6853F"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "080DCD71B7170FDB"
 				type: "checkmark"
 			}]
 			title: "A Primer on Power"
-			x: -10.0d
+			x: -13.0d
 			y: 3.0d
 		}
 		{
@@ -1558,13 +1154,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "7DED03E002048B0A"
 				type: "checkmark"
 			}]
 			title: "Putting it all Together"
-			x: -10.0d
+			x: -13.0d
 			y: 5.0d
 		}
 		{
@@ -1595,7 +1191,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			subtitle: "The factory begins"
 			tasks: [
 				{
@@ -1611,11 +1207,14 @@
 				}
 			]
 			title: "&2Wiremill"
-			x: 0.5d
-			y: 1.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["519586FFE393BD19"]
+			dependencies: [
+				"519586FFE393BD19"
+				"431BB650AC492C84"
+			]
 			description: [
 				"Although you could &emagnetize&r &6Iron Ingots&r by hand using &6Redstone&r, doing that consumes considerable amounts of dust and that's not an option for more advanced materials. This machine will let you magnetize &6Steel Rods&r, as well as even more advanced materials later."
 				""
@@ -1629,7 +1228,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			subtitle: "Automatic magnetizers"
 			tasks: [{
 				id: "2AAE22F760F73AD8"
@@ -1637,8 +1236,8 @@
 				type: "item"
 			}]
 			title: "&2Polarizer"
-			x: 0.5d
-			y: 5.5d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1A30472430354F1E"]
@@ -1681,11 +1280,14 @@
 				type: "checkmark"
 			}]
 			title: "&9Programmed Circuits"
-			x: 0.5d
-			y: 2.5d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["519586FFE393BD19"]
+			dependencies: [
+				"519586FFE393BD19"
+				"431BB650AC492C84"
+			]
 			description: [
 				"The &3Lathe&r is an important machine that makes &6Rods&r less expensive to craft. One ingot will yield two rods, doubling your output compared to manually crafting it."
 				""
@@ -1701,20 +1303,20 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "5D06DCFA7A00AE81"
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
 			title: "Lathe"
-			x: 0.5d
-			y: 7.0d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
-				"0381DCD3FD3C9ED2"
 				"519586FFE393BD19"
+				"0381DCD3FD3C9ED2"
 			]
 			description: [
 				"The &3Bender&r improves the yield of a great deal of items. Most notably, you can use it to get one &6Plate&r from a single ingot, instead of having to spend two ingots for a single plate."
@@ -1738,15 +1340,15 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "5D9E01E9FFB9F05B"
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
 			title: "&2Bender"
-			x: 0.5d
-			y: 4.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6AE36CD4F39DAB08"]
@@ -1762,34 +1364,16 @@
 			subtitle: "&2Your machine of choice for liquefying metals!"
 			tasks: [{
 				id: "302CBE00E5451E5E"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_extractor"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_extractor"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_extractor"
-							}
-						]
-					}
-				}
+				item: "gtceu:lv_extractor"
 				title: "LV, MV, or HV Extractor"
 				type: "item"
 			}]
 			title: "&2Extractor"
-			x: 9.0d
-			y: -2.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["6AE36CD4F39DAB08"]
 			description: [
 				"&3Macerators&r are useful for grinding things down, replacing the &aMortars&r you've needed until now. This is an important machine you will be using for many things in the future."
 				""
@@ -1840,8 +1424,8 @@
 				type: "item"
 			}]
 			title: "&2Macerator"
-			x: -21.375d
-			y: -1.125d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1864,36 +1448,17 @@
 			size: 1.5d
 			tasks: [{
 				id: "421570E2D8BAB4DE"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_fluid_solidifier"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_fluid_solidifier"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_fluid_solidifier"
-							}
-						]
-					}
-				}
-				title: "LV, MV, or HV Fluid Solidifier"
+				item: "gtceu:lv_fluid_solidifier"
 				type: "item"
 			}]
 			title: "Fluid Solidifier"
-			x: 7.0d
-			y: -2.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["6AE36CD4F39DAB08"]
 			description: ["&3Pumps&r are useful for gathering &6Oil&r or perhaps &6Lava&r from the Nether. Supply one with power, and it will slowly deploy a pipe under itself, pumping fluid when it encounters it."]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			icon: "gtceu:lv_pump"
 			id: "09C0CDC1DFA7842D"
 			rewards: [{
@@ -1901,7 +1466,8 @@
 				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [{
 				id: "03C18BA6D84BA956"
 				item: {
@@ -1928,8 +1494,8 @@
 				type: "item"
 			}]
 			title: "&2Pumps"
-			x: -0.375d
-			y: -13.125d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6AE36CD4F39DAB08"]
@@ -1944,32 +1510,12 @@
 			size: 1.5d
 			tasks: [{
 				id: "11FEC1EF6257937D"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_autoclave"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_autoclave"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_autoclave"
-							}
-						]
-					}
-				}
-				title: "LV, MV, or HV Autoclave"
+				item: "gtceu:lv_autoclave"
 				type: "item"
 			}]
 			title: "Autoclave"
-			x: 3.0d
-			y: -2.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4EAD8756BAAC6B2E"]
@@ -2007,11 +1553,14 @@
 				}
 			]
 			title: "Molds"
-			x: 7.0d
-			y: -4.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6AE36CD4F39DAB08"]
+			dependencies: [
+				"6AE36CD4F39DAB08"
+				"6FE99EDDC6223F2E"
+			]
 			description: [
 				"The Arc Furnace allows you to make &6Annealed Copper&r, which will be used in the MV Age. It can also make 2 pieces of Glass from 1 Sand. Later, it can make &2Tempered Glass&r for use in higher-tier recipes."
 				""
@@ -2029,7 +1578,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "4425D77A0E138B1B"
 				item: "gtceu:lv_arc_furnace"
@@ -2037,7 +1586,7 @@
 			}]
 			title: "&2Arc Furnace"
 			x: 9.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["025543EDB0A4AC22"]
@@ -2062,8 +1611,8 @@
 				type: "item"
 			}]
 			title: "&9Infinite Cobblestone"
-			x: 2.5d
-			y: 9.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -2093,8 +1642,8 @@
 			]
 			icon: "gtceu:shutter_module_cover"
 			id: "1A427A8CB43C8B59"
-			shape: "hexagon"
-			size: 2.0d
+			shape: "square"
+			size: 1.25d
 			tasks: [
 				{
 					icon: "gtceu:lv_conveyor_module"
@@ -2150,22 +1699,23 @@
 				}
 			]
 			title: "&9Machine Covers"
-			x: 5.0d
-			y: -13.0d
+			x: 0.5d
+			y: 12.0d
 		}
 		{
+			dependencies: ["4A5CC6210FCEC075"]
 			description: ["&9Pressing the second tab in any given machine's GUI will open up a view showing the machine and any blocks it is touching.&r From there, you can click on a side of the machine and easily add, edit and remove &acovers&r, and configure if the machine should &3automatically output&r and which side it should output to. "]
 			icon: "minecraft:hopper"
 			id: "431BB650AC492C84"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "65EF130C1913A8AD"
 				title: "Screwdrive Output Sides!"
 				type: "checkmark"
 			}]
 			title: "&9Machine Auto-Output"
-			x: 1.5d
-			y: -13.125d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4A5CC6210FCEC075"]
@@ -2178,7 +1728,7 @@
 			hide_until_deps_visible: false
 			id: "604CCBE824D03A74"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "The First of Many"
 			tasks: [{
 				count: 16L
@@ -2187,15 +1737,14 @@
 				type: "item"
 			}]
 			title: "&2LV Machine Hulls"
-			x: -14.0d
+			x: -17.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
 				"53347AAAE4495F95"
-				"6197C51E04761371"
-				"6FE99EDDC6223F2E"
 				"5D9399DD7DF6F153"
+				"0381464BDF6B67E5"
 			]
 			description: [
 				"&6Diodes&r are a component in the next Circuit tiers. They are made in an &3Assembler&r from liquid &9Glass&r, &6Fine Copper Wire&r and &6Gallium Arsenide&r. "
@@ -2210,7 +1759,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "768DB070EA8F5B25"
 				item: "gtceu:diode"
@@ -2218,12 +1767,14 @@
 			}]
 			title: "Diodes"
 			x: 13.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
 				"61AD3760E271B431"
 				"5F109188BE4D9767"
+				"35F9EC1A213BEDC7"
+				"1DBBE96165C7987D"
 			]
 			description: [
 				"&2Initial circuit components can be complex in GTm, as you need both Arsenic and Gallium.&r"
@@ -2247,14 +1798,15 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.75d
 			tasks: [{
 				id: "2125B9BDF4FD7904"
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
 			title: "&2Gallium Arsenide"
-			x: 11.5d
-			y: 2.0d
+			x: 7.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4A5CC6210FCEC075"]
@@ -2274,18 +1826,18 @@
 			]
 			icon: "gtceu:small_gallium_dust"
 			id: "61AD3760E271B431"
-			shape: "hexagon"
+			shape: "square"
 			size: 1.25d
 			tasks: [{
 				id: "5E6A27EC5AF00A4B"
 				type: "checkmark"
 			}]
 			title: "&2Ore Processing for Byproducts"
-			x: 13.0d
-			y: 2.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["61AD3760E271B431"]
+			dependencies: ["5FE0B3C3179C22AB"]
 			description: [
 				"Ores have various means of processing, and eventually you'll use machine pipelines to process ores in specific ways to optimize what byproducts you gain. You can look at the &6Ore Byproduct Page&r of an ore in &bEMI&r, accessed by pressing 'U' on an ore and navigating to the byproduct tab, to see the required route to obtain desired byproducts. "
 				""
@@ -2309,13 +1861,14 @@
 			]
 			icon: "gtceu:lv_ore_washer"
 			id: "2B7B623879D6E94A"
+			size: 1.25d
 			tasks: [{
 				id: "0B7B0FFB3FEE3F79"
 				type: "checkmark"
 			}]
 			title: "Ore Processing Machines"
-			x: 13.0d
-			y: -0.25d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6AE36CD4F39DAB08"]
@@ -2334,35 +1887,15 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "79E44B9FE48FA14C"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_centrifuge"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_centrifuge"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_centrifuge"
-							}
-						]
-					}
-				}
-				title: "LV, MV, or HV Centrifuge"
+				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
 			title: "Centrifuge"
-			x: 9.0d
-			y: 2.0d
+			x: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -2388,8 +1921,8 @@
 				type: "item"
 			}]
 			title: "&2The First Tier Two Circuits"
-			x: 15.0d
-			y: 11.0d
+			x: 17.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4A5CC6210FCEC075"]
@@ -2414,13 +1947,14 @@
 				type: "checkmark"
 			}]
 			title: "Discord and GitHub"
-			x: 0.0d
-			y: -15.75d
+			x: -18.75d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"5B0200011DF8E1B6"
 				"68897FC5F720BB4F"
+				"2664406B3CD20703"
+				"5B0200011DF8E1B6"
 			]
 			description: ["&2With LV power, you can only get Aluminium Dust from electrolyzing Sapphire Dust or Green Sapphire Dust. Once you make an MV Electrolyzer, you can get it from a plethora of other raw resources, such as Clay.&r"]
 			hide_until_deps_complete: true
@@ -2428,67 +1962,70 @@
 			id: "12CDEB5A516171A8"
 			optional: true
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "59BC84773AD482D9"
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
 			title: "Aluminium Dust (HM/EM)"
-			x: 19.0d
-			y: -3.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0D6C8FFD01BE5C21"]
 			id: "0C697B8E7CDAEC6F"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "2858C7BE105D568D"
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
 			x: 15.0d
-			y: 4.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0C697B8E7CDAEC6F"]
+			dependencies: [
+				"0C697B8E7CDAEC6F"
+				"5BB82E4AF0D1585A"
+			]
 			id: "0AEDD7FBCEB92B14"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "4FE6DC88CD069015"
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
 			x: 15.0d
-			y: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0AEDD7FBCEB92B14"]
 			id: "1F8B22B403FF3BF4"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				id: "629FB7C8EDC66070"
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 8.5d
+			x: 17.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3FD0096C723B00D7"]
+			dependencies: ["2861BA7C235C52A3"]
 			id: "519586FFE393BD19"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				count: 64L
 				id: "62209230CF969A61"
 				item: "gtceu:conductive_alloy_ingot"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -2500,88 +2037,381 @@
 			]
 			id: "6AE36CD4F39DAB08"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				count: 64L
 				id: "6B7AA17498D649E6"
 				item: { Count: 64, id: "gtceu:basic_electronic_circuit" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: -1.0d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"134AD7825E3324B4"
-				"68897FC5F720BB4F"
-			]
-			description: [
-				"This pack has &aSnad&r, which is simply a sand-like block that instantly grows sugar cane/cactus on top of it when it receives either a block update or a redstone update."
-				""
-				"The sugar cane it produces can be used as fuel for your dynamos, and later you can even brew &9Biomass&r with it."
-				""
-				"This quest calls for a &aRedstone Clock&r because it grows Snad even on the fastest setting - vanilla Observer clocks pulse too quickly."
-				""
-				"To harvest the sugar cane, you can use a piston and an observer."
-				""
-				"For now, a &3Vacuum Chest&r should help keep the floor clean, and will cause less lag than Hoppers. A &aVoid Upgrade&r in a &6Storage Drawer&r will automatically delete any items that overflow the drawer's capacity, so it's a good way to ensure you don't crash your server from accumulating a massive sugar cane pile."
-			]
-			hide_until_deps_visible: true
-			icon: "snad:snad"
-			id: "63ADD9B48834AA39"
-			optional: true
-			shape: "hexagon"
-			size: 1.25d
-			subtitle: "Yes, Snad."
-			tasks: [
-				{
-					id: "677A2551088FF511"
-					item: "snad:snad"
-					type: "item"
-				}
-				{
-					id: "73A6A78D037587CE"
-					item: "enderio:vacuum_chest"
-					type: "item"
-				}
-				{
-					id: "37B26D17B2B13DDE"
-					item: "redstoneclock:redstone_clock"
-					type: "item"
-				}
-				{
-					id: "0B29F722B1B4D328"
-					item: "functionalstorage:void_upgrade"
-					type: "item"
-				}
-			]
-			title: "Snad"
-			x: 10.375d
-			y: -12.8125d
 		}
 		{
 			dependencies: ["500E619D568C07C2"]
 			id: "5D9399DD7DF6F153"
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.75d
 			tasks: [{
 				count: 32L
 				id: "6B45DAABF4C7B1A4"
 				item: { Count: 32, id: "gtceu:annealed_copper_ingot" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 11.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["6AE36CD4F39DAB08"]
 			id: "35F9EC1A213BEDC7"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [{
 				id: "207513F0C803E3F9"
 				item: "gtceu:lv_thermal_centrifuge"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -0.25d
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6AE36CD4F39DAB08"]
+			id: "21408E21D169A138"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "12EBD01D74E93C2B"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6AE36CD4F39DAB08"]
+			id: "2A958C5C49C46C73"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1266A5C99EEBD2E1"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6AE36CD4F39DAB08"]
+			id: "5FE0B3C3179C22AB"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "188F243D96799964"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AE36CD4F39DAB08"]
+			id: "71312D041640171C"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "3FC54A1738D49578"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21408E21D169A138"]
+			description: [
+				"Need to rewrite to cover diamond tools"
+				""
+				"&m&9With EMI, instead of showing you a separate recipe for every tool-resource combination, tools are instead grouped. You can use any tool from that group - for example, the &6#forge:tools/hammers &9group means that any &aHammer &9can be used there."
+				""
+				"&mFirst, make a &aHammer&f (not a &aMining Hammer&f, mind you… six ingots, not plates). Hammers can be used to turn &etwo ingots into one plate&f. &6Plates&f can make a &3File&f, Files can make &6Rods&f, etc. Use EMI to work your way down the list of tools."
+				""
+				"&m&6Wrought Iron&f is probably your best bet for a tool material right now, but better materials will become available as you progress.&r"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:wrought_iron_wire_cutter"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 2
+						MaxDamage: 383
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "714219413BCF71B2"
+			rewards: [{
+				count: 2
+				id: "60C1EAC5200C5B03"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "24DE4BD5821AF7D5"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 3
+								MaxDamage: 767
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BD9B95C07B3FF04"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 767
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EE8B528E5817A27"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 767
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72A2BA8B6A1A747F"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 3
+								MaxDamage: 767
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51B97C99CCBC8378"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 767
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38B3C75041D4C218"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 3
+								MaxDamage: 767
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Some Starter Tools"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["71312D041640171C"]
+			hide_dependent_lines: true
+			id: "73367C96509E8777"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6629E48E9FB36C79"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6AE36CD4F39DAB08"]
+			id: "192A84CB14E7B226"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "6B91080ADABA12BF"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AE36CD4F39DAB08"]
+			id: "5BB82E4AF0D1585A"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "277552B4F535F325"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FE99EDDC6223F2E"
+				"305E9DAD85B780C5"
+			]
+			id: "0381464BDF6B67E5"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "72DF3C068429201D"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09C0CDC1DFA7842D"]
+			id: "4A71B5E2F4DBAD29"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "3C6994A3F89C176E"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4A71B5E2F4DBAD29"
+				"192A84CB14E7B226"
+			]
+			id: "39D77F4BAC51B040"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "45D38C8282D99617"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"39D77F4BAC51B040"
+				"5BB82E4AF0D1585A"
+			]
+			id: "79A2DE48372DBA9E"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "673948213075ECA9"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79A2DE48372DBA9E"]
+			id: "6306919AEC5BBECF"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "7A759411978D275E"
+				item: "gtceu:severely_steam_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6306919AEC5BBECF"]
+			id: "305E9DAD85B780C5"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "09EF87FD206C6EA9"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
 		}
 	]
 	title: "LV"

@@ -1402,7 +1402,6 @@
 			hide_until_deps_visible: true
 			icon: "steamadditions:steam_foundry"
 			id: "18F01BB67968C209"
-			optional: true
 			rewards: [{
 				id: "351DE5917A3AD80C"
 				item: "kubejs:moni_quarter"
@@ -2010,6 +2009,148 @@
 			}]
 			x: 0.0d
 			y: 8.0d
+		}
+		{
+			description: [
+				"A &aSoft Mallet&f can be used to temporarily stop a machine from functioning. While &9this can also be done by pressing the pause button within the machine's GUI&r, the Soft Mallet allows you to quickly turn machines on and off without entering their GUI. &2In either case, please note that the machine will only stop after it finishes its current recipe.&r This can be helpful if you are low on power, but is mostly useful when you need to upgrade a multiblock (more on those later)."
+				""
+				"Although you can make it out of &6Wood&r, it is probably better to make it out of &6Rubber&r now that you can."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:rubber_mallet"
+				tag: {
+					Damage: 0
+					GT.Behaviours: { }
+					GT.Tool: {
+						AttackDamage: 0.0f
+						AttackSpeed: -2.4f
+						DefaultEnchantments: [ ]
+						MaxDamage: 128
+					}
+				}
+			}
+			id: "7EA737163230F984"
+			rewards: [{
+				id: "56897FB11AB023CB"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "Bonk!"
+			tasks: [{
+				id: "56A2D430950E2112"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:wood_mallet"
+								tag: {
+									Damage: 0
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 0.0f
+										AttackSpeed: -2.4f
+										MaxDamage: 127
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:rubber_mallet"
+								tag: {
+									Damage: 0
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										MaxDamage: 127
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:polytetrafluoroethylene_mallet"
+								tag: {
+									Damage: 0
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										MaxDamage: 127
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:polyethylene_mallet"
+								tag: {
+									Damage: 0
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 0.0f
+										AttackSpeed: -2.4f
+										MaxDamage: 127
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:polybenzimidazole_mallet"
+								tag: {
+									Damage: 0
+									DisallowContainerItem: 0b
+									GT.Behaviours: { }
+									GT.Tool: {
+										AttackDamage: 0.0f
+										AttackSpeed: -2.4f
+										MaxDamage: 127
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				title: "Any Soft Mallet"
+				type: "item"
+			}]
+			title: "&9Soft Mallet"
+			x: 5.3125d
+			y: 15.0d
+		}
+		{
+			description: [
+				"To mute a Gregtech machine, right-click it with a &6Hammer&r. (Not the Mining kind!)"
+				""
+				"For other sounds, there is a button in the &etop-left&r of your inventory that looks like a speaker. Clicking it brings you to the &bExtreme Sound Muffler&r menu."
+				""
+				"In this menu you can &eattenuate the volume of sounds that were recently played&r, or set an \"Anchor\" to reduce the volume of sounds in that area - most of the controls in this menu have a tooltip to tell you what they do."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/overlay/tool_sound.png"
+				}
+			}
+			id: "5B52FFEBF5D65C20"
+			size: 1.25d
+			subtitle: "My poor ears!"
+			tasks: [{
+				id: "2D68D336FAC66CCE"
+				type: "checkmark"
+			}]
+			title: "&9Muting and Muffling"
+			x: 6.6875d
+			y: 15.125d
 		}
 	]
 	title: "Steam"

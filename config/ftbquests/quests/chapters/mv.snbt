@@ -51,6 +51,22 @@
 			x: -3.25d
 			y: 14.5d
 		}
+		{
+			id: "6EFDF0495132F8EC"
+			linked_quest: "715BC5C7DAC53B7B"
+			shape: "hexagon"
+			size: 2.0d
+			x: 19.375d
+			y: 6.5d
+		}
+		{
+			id: "30E5F898D55B37A7"
+			linked_quest: "491180694DA10086"
+			shape: "hexagon"
+			size: 2.0d
+			x: 16.25d
+			y: 9.5625d
+		}
 	]
 	quests: [
 		{
@@ -1703,6 +1719,294 @@
 			title: "Soldering Alloy"
 			x: 0.625d
 			y: 7.8125d
+		}
+		{
+			description: [
+				"&6Pulsating Dust&r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange (and potentially dangerous) applications, including the ability to make &6Pulsating Iron&r and &6Ender Pearls&r."
+				""
+				"Your first source of Pulsating Dust is &6Uraninite&r, which you can get from &6Uraninite Ore&r. Later on, you'll be able to produce Pulsating Dust by smelting &6Resonant Clathrates&r."
+			]
+			icon: "kubejs:pulsating_dust"
+			id: "30EBD4E7BBFFEF2C"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "771429E0BF88C060"
+					item: "kubejs:pulsating_dust"
+					type: "item"
+				}
+				{
+					id: "7CD88A0039FEDB93"
+					item: "gtceu:uraninite_dust"
+					type: "item"
+				}
+			]
+			title: "Pulsating Dust"
+			x: 19.125d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30EBD4E7BBFFEF2C"
+				"18F01BB67968C209"
+			]
+			description: ["If you can't find one otherwise, &6Ender Pearls&r can be crafted using Pulsating Dust and a &6Diamond&r in an &3Alloy Smelter&r."]
+			icon: "gtceu:pulsating_alloy_ingot"
+			id: "273F3F8DD6A3DCC5"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "A mysterious alloy, made from &6Pulsating Dust&r and &6Iron&r."
+			tasks: [
+				{
+					id: "22A4BABD40C1A481"
+					item: "gtceu:pulsating_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "1D2D8CC9B069A59B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "Pulsating Iron and Ender Pearls"
+			x: 16.625d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30EBD4E7BBFFEF2C"
+				"5BE3E37772FAF6CB"
+			]
+			description: [
+				"&6&6String&r and &6Coal Dust&r can be baked together into &6Carbon Fiber Mesh&r in an &3Alloy Smelter&r."
+				""
+				"Combine that with &6Pulsating Dust&r to get &6Pulsating Mesh&r."
+			]
+			hide_until_deps_visible: true
+			icon: "kubejs:pulsating_mesh"
+			id: "645B1DCB3DA7198A"
+			optional: true
+			rewards: [{
+				id: "2D12B468C7630D14"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3FB8F2F8B1867430"
+					item: "kubejs:pulsating_mesh"
+					type: "item"
+				}
+				{
+					id: "6684545526C4AD44"
+					item: "gtceu:carbon_fiber_mesh"
+					type: "item"
+				}
+			]
+			title: "Pulsating Mesh"
+			x: 19.375d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"74B5CA5A48CE7B39"
+				"18F01BB67968C209"
+				"4A5CC6210FCEC075"
+			]
+			description: ["&6Dark Steel&r is made by alloying &6Obsidian&r and &6Steel&r together in an &3Alloy Smelter&r. Later, in &bMV&r, you can use &6Void Crystal&r instead of Obsidian."]
+			id: "3BD20358F137E7C6"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6C0D6663D13E8C74"
+				item: "gtceu:dark_steel_ingot"
+				type: "item"
+			}]
+			title: "Dark Steel"
+			x: 16.375d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4A5CC6210FCEC075"]
+			description: [
+				"You'll need &6Obsidian&r to make &6Dark Steel&r. Most of the tools you can make cannot mine Obsidian, but you do have a few potential options for ones that will work. The options you're most likely to have access to at this point are:"
+				""
+				"1) A &aDiamond Pickaxe&r or &aDiamond Mining Hammer&r."
+				""
+				"2) A &aSteel Pickaxe&r."
+				""
+				"Later, you can use a &3Rock Breaker&r at voltage &aHV&r or higher to make &6Obsidian&r without spending &6Lava&r!"
+			]
+			id: "74B5CA5A48CE7B39"
+			rewards: [{
+				id: "0BF9F19C54FA7B41"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "08959EE1440564D6"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 14.375d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3BD20358F137E7C6"]
+			description: [
+				"The main purpose for this device is to turn &6Certus Quartz&r into &6Charged Certus Quartz&r."
+				""
+				"This device can be powered with RF via energy cards or AE energy from a network via cables."
+				""
+				"It accepts power from &9five&r sides. Which &9five&r sides? It's pretty easy to guess."
+				""
+				"You can also easily automate charging by having hoppers input items from the top or sides, and pull items from the bottom."
+			]
+			icon: "ae2:charger"
+			id: "6D03BB4A6A4BBA27"
+			rewards: [{
+				id: "4450EEE7F4D93EF0"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "39AA9BBDCACBC109"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "Charging Quartz"
+			x: 16.25d
+			y: 7.8125d
+		}
+		{
+			dependencies: [
+				"3BD20358F137E7C6"
+				"273F3F8DD6A3DCC5"
+			]
+			description: [
+				"Holding one of these reveals &aTravel Anchors&r in range."
+				""
+				"Right-click after aiming to warp to one, or point it anywhere and shift+right-click to teleport forward a short distance (works through walls)."
+				""
+				"These are powered with RF, and can be further enchanted through &bEnder IO&r's enchanting mechanics."
+				""
+				"The &6Pulsating Crystal&r will require an &3Autoclave&r."
+			]
+			id: "3D6BC54DBE665638"
+			rewards: [{
+				id: "096D97D7F08241D4"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7187745E3D3C66B6"
+				item: {
+					Count: 1
+					id: "enderio:staff_of_travelling"
+					tag: {
+						Energy: {
+							EnergyStored: 100000
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.375d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3BD20358F137E7C6"
+				"5BE3E37772FAF6CB"
+			]
+			description: [
+				"Once you have obtained your first pieces of &6Dark Steel&r, travel to the &bNether&r becomes available."
+				""
+				"The &eNether&r contains quite a few useful resources:"
+				"- Some initial pieces of &6Sulfur&r"
+				"- &6Glowstone&r and &6Soul Sand&r"
+				"- &6Fluorine&r, &6Certus Quartz&r, &6Molybdenum&r, &6Antimony&r, and &6Gold&r-bearing ores"
+				"- &2Nether Air&r, which can be distilled for useful gases"
+				"- &eLava&r and &eNatural Gas&r from &2Fluid Rigs&r"
+				""
+				"In Normal Mode, &eNether&r travel is still strictly optional in the pack, although it is recommended."
+			]
+			hide_until_deps_visible: true
+			id: "7A67E519745A8361"
+			optional: true
+			rewards: [{
+				id: "5E252CA9C37789FE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0E87A07E1757F58F"
+				item: "telepastries:nether_cake"
+				type: "item"
+			}]
+			x: 14.625d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"134AD7825E3324B4"
+				"68897FC5F720BB4F"
+			]
+			description: [
+				"This pack has &aSnad&r, which is simply a sand-like block that instantly grows sugar cane/cactus on top of it when it receives either a block update or a redstone update."
+				""
+				"The sugar cane it produces can be used as fuel for your dynamos, and later you can even brew &9Biomass&r with it."
+				""
+				"This quest calls for a &aRedstone Clock&r because it grows Snad even on the fastest setting - vanilla Observer clocks pulse too quickly."
+				""
+				"To harvest the sugar cane, you can use a piston and an observer."
+				""
+				"For now, a &3Vacuum Chest&r should help keep the floor clean, and will cause less lag than Hoppers. A &aVoid Upgrade&r in a &6Storage Drawer&r will automatically delete any items that overflow the drawer's capacity, so it's a good way to ensure you don't crash your server from accumulating a massive sugar cane pile."
+			]
+			hide_until_deps_visible: true
+			icon: "snad:snad"
+			id: "63ADD9B48834AA39"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Yes, Snad."
+			tasks: [
+				{
+					id: "677A2551088FF511"
+					item: "snad:snad"
+					type: "item"
+				}
+				{
+					id: "73A6A78D037587CE"
+					item: "enderio:vacuum_chest"
+					type: "item"
+				}
+				{
+					id: "37B26D17B2B13DDE"
+					item: "redstoneclock:redstone_clock"
+					type: "item"
+				}
+				{
+					id: "0B29F722B1B4D328"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			title: "Snad"
+			x: 14.75d
+			y: 2.8125d
 		}
 	]
 	title: "MV"
